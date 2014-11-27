@@ -1,0 +1,2562 @@
+(lp0
+(lp1
+S'A Major'
+p2
+aS'E None A 0 D 2 G 2 B 2 E 0 E None A 0 D 2 G 2 B 2 E 0 '
+p3
+aa(lp4
+S'Bb Major'
+p5
+aS'E None A None D 0 G 3 B 3 E 1 '
+p6
+aa(lp7
+S'B Major'
+p8
+aS'E None A 2 D 1 G None B 0 E 2 '
+p9
+aa(lp10
+S'C Major'
+p11
+aS'E None A 3 D 2 G 0 B 1 E 0 '
+p12
+aa(lp13
+S'D Major'
+p14
+aS'E None A None D 0 G 2 B 3 E 2 '
+p15
+aa(lp16
+S'E Major'
+p17
+aS'E 0 A 2 D 2 G 1 B 0 E 0 '
+p18
+aa(lp19
+S'F Major'
+p20
+aS'E None A 0 D 3 G 2 B 1 E 1 '
+p21
+aa(lp22
+S'G Major'
+p23
+aS'E 3 A 2 D 0 G 0 B 0 E 3 '
+p24
+aa(lp25
+S'A Major'
+p26
+aS'E 5 A 7 D 7 G 6 B 5 E 5 '
+p27
+aa(lp28
+S'Bb Major'
+p29
+aS'E 6 A 8 D 8 G 7 B 6 E 6 '
+p30
+aa(lp31
+S'B Major'
+p32
+aS'E 7 A 9 D 9 G 8 B 7 E 7 '
+p33
+aa(lp34
+S'C Major'
+p35
+aS'E 8 A 10 D 10 G 9 B 8 E 8 '
+p36
+aa(lp37
+S'Db Major'
+p38
+aS'E 9 A 11 D 11 G 10 B 9 E 9 '
+p39
+aa(lp40
+S'D Major'
+p41
+aS'E 10 A 12 D 12 G 11 B 10 E 10 '
+p42
+aa(lp43
+S'Eb Major'
+p44
+aS'E 11 A 13 D 13 G 12 B 11 E 11 '
+p45
+aa(lp46
+S'E Major'
+p47
+aS'E 12 A 14 D 14 G 13 B 12 E 12 '
+p48
+aa(lp49
+S'F Major'
+p50
+aS'E 1 A 3 D 3 G 2 B 1 E 1 '
+p51
+aa(lp52
+S'F# Major'
+p53
+aS'E 2 A 4 D 4 G 3 B 2 E 2 '
+p54
+aa(lp55
+S'G Major'
+p56
+aS'E 3 A 5 D 5 G 4 B 3 E 3 '
+p57
+aa(lp58
+S'Ab Major'
+p59
+aS'E 4 A 6 D 6 G 5 B 4 E 4 '
+p60
+aa(lp61
+S'A Major'
+p62
+aS'E 5 A 4 D 2 G 2 B 2 E 5 '
+p63
+aa(lp64
+S'Bb Major'
+p65
+aS'E 6 A 5 D 3 G 3 B 3 E 6 '
+p66
+aa(lp67
+S'B Major'
+p68
+aS'E 7 A 6 D 4 G 4 B 4 E 7 '
+p69
+aa(lp70
+S'C Major'
+p71
+aS'E 8 A 7 D 5 G 5 B 5 E 8 '
+p72
+aa(lp73
+S'Db Major'
+p74
+aS'E 9 A 8 D 6 G 6 B 6 E 9 '
+p75
+aa(lp76
+S'D Major'
+p77
+aS'E 10 A 9 D 7 G 7 B 7 E 10 '
+p78
+aa(lp79
+S'Eb Major'
+p80
+aS'E 11 A 10 D 8 G 8 B 8 E 11 '
+p81
+aa(lp82
+S'E Major'
+p83
+aS'E 12 A 11 D 9 G 9 B 9 E 12 '
+p84
+aa(lp85
+S'F Major'
+p86
+aS'E 13 A 12 D 10 G 10 B 10 E 13 '
+p87
+aa(lp88
+S'F# Major'
+p89
+aS'E 14 A 13 D 11 G 11 B 11 E 14 '
+p90
+aa(lp91
+S'G Major'
+p92
+aS'E 15 A 14 D 12 G 12 B 12 E 15 '
+p93
+aa(lp94
+S'Ab Major'
+p95
+aS'E 4 A 3 D 1 G 1 B 1 E 4 '
+p96
+aa(lp97
+S'A Major'
+p98
+aS'E None A 12 D 14 G 14 B 14 E 12 '
+p99
+aa(lp100
+S'Bb Major'
+p101
+aS'E None A 1 D 3 G 3 B 3 E 1 '
+p102
+aa(lp103
+S'B Major'
+p104
+aS'E None A 2 D 4 G 4 B 4 E 2 '
+p105
+aa(lp106
+S'C Major'
+p107
+aS'E None A 3 D 5 G 5 B 5 E 3 '
+p108
+aa(lp109
+S'Db Major'
+p110
+aS'E None A 4 D 6 G 6 B 6 E 4 '
+p111
+aa(lp112
+S'D Major'
+p113
+aS'E None A 5 D 7 G 7 B 7 E 5 '
+p114
+aa(lp115
+S'Eb Major'
+p116
+aS'E None A 6 D 8 G 8 B 8 E 6 '
+p117
+aa(lp118
+S'E Major'
+p119
+aS'E None A 7 D 9 G 9 B 9 E 7 '
+p120
+aa(lp121
+S'F Major'
+p122
+aS'E None A 8 D 10 G 10 B 10 E 8 '
+p123
+aa(lp124
+S'F# Major'
+p125
+aS'E None A 9 D 11 G 11 B 11 E 9 '
+p126
+aa(lp127
+S'G Major'
+p128
+aS'E None A 10 D 12 G 12 B 12 E 10 '
+p129
+aa(lp130
+S'Ab Major'
+p131
+aS'E None A 11 D 13 G 13 B 13 E 11 '
+p132
+aa(lp133
+S'A Major'
+p134
+aS'E None A 12 D 11 G 9 B 10 E 9 '
+p135
+aa(lp136
+S'Bb Major'
+p137
+aS'E None A 13 D 12 G 10 B 11 E 10 '
+p138
+aa(lp139
+S'B Major'
+p140
+aS'E None A 14 D 13 G 11 B 12 E 11 '
+p141
+aa(lp142
+S'C Major'
+p143
+aS'E None A 15 D 14 G 12 B 13 E 12 '
+p144
+aa(lp145
+S'Db Major'
+p146
+aS'E None A 4 D 3 G 1 B 2 E 1 '
+p147
+aa(lp148
+S'D Major'
+p149
+aS'E None A 5 D 4 G 2 B 3 E 2 '
+p150
+aa(lp151
+S'Eb Major'
+p152
+aS'E None A 6 D 5 G 3 B 4 E 3 '
+p153
+aa(lp154
+S'E Major'
+p155
+aS'E None A 7 D 6 G 4 B 5 E 4 '
+p156
+aa(lp157
+S'F Major'
+p158
+aS'E None A 8 D 7 G 5 B 6 E 5 '
+p159
+aa(lp160
+S'F# Major'
+p161
+aS'E None A 9 D 8 G 6 B 7 E 6 '
+p162
+aa(lp163
+S'G Major'
+p164
+aS'E None A 10 D 9 G 7 B 8 E 7 '
+p165
+aa(lp166
+S'Ab Major'
+p167
+aS'E None A 11 D 10 G 8 B 9 E 8 '
+p168
+aa(lp169
+S'A Major'
+p170
+aS'E None A None D 7 G 9 B 10 E 9 '
+p171
+aa(lp172
+S'Bb Major'
+p173
+aS'E None A None D 8 G 10 B 11 E 10 '
+p174
+aa(lp175
+S'B Major'
+p176
+aS'E None A None D 9 G 11 B 12 E 11 '
+p177
+aa(lp178
+S'C Major'
+p179
+aS'E None A None D 10 G 12 B 13 E 12 '
+p180
+aa(lp181
+S'Db Major'
+p182
+aS'E None A None D 11 G 13 B 14 E 13 '
+p183
+aa(lp184
+S'D Major'
+p185
+aS'E None A None D 12 G 14 B 15 E 14 '
+p186
+aa(lp187
+S'Eb Major'
+p188
+aS'E None A None D 1 G 3 B 4 E 3 '
+p189
+aa(lp190
+S'E Major'
+p191
+aS'E None A None D 2 G 4 B 5 E 4 '
+p192
+aa(lp193
+S'F Major'
+p194
+aS'E None A None D 3 G 5 B 6 E 5 '
+p195
+aa(lp196
+S'F# Major'
+p197
+aS'E None A None D 4 G 6 B 7 E 6 '
+p198
+aa(lp199
+S'G Major'
+p200
+aS'E None A None D 5 G 7 B 8 E 7 '
+p201
+aa(lp202
+S'Ab Major'
+p203
+aS'E None A None D 6 G 8 B 9 E 8 '
+p204
+aa(lp205
+S'A Dominant Seven'
+p206
+aS'E None A 0 D 2 G 0 B 2 E 0 E None A 0 D 2 G 2 B 2 E 3 '
+p207
+aa(lp208
+S'B Dominant Seven'
+p209
+aS'E None A 2 D 1 G 2 B 0 E 2 '
+p210
+aa(lp211
+S'C Dominant Seven'
+p212
+aS'E None A 3 D 2 G 3 B 1 E 0 '
+p213
+aa(lp214
+S'D Dominant Seven'
+p215
+aS'E None A None D 0 G 2 B 1 E 2 '
+p216
+aa(lp217
+S'Eb Dominant Seven'
+p218
+aS'E None A 1 D 1 G 0 B 2 E 3 '
+p219
+aa(lp220
+S'E Dominant Seven'
+p221
+aS'E 0 A 2 D 0 G 1 B 0 E 0 E 0 A 2 D 2 G 1 B 4 E 0 '
+p222
+aa(lp223
+S'F Dominant Seven'
+p224
+aS'E None A 0 D 1 G 2 B 1 E 1 '
+p225
+aa(lp226
+S'F# Dominant Seven'
+p227
+aS'E None A None D 4 G 3 B 2 E 0 '
+p228
+aa(lp229
+S'G Dominant Seven'
+p230
+aS'E 3 A 2 D 0 G 0 B 0 E 1 '
+p231
+aa(lp232
+S'A Dominant Seven'
+p233
+aS'E 5 A 7 D 5 G 6 B 8 E 5 '
+p234
+aa(lp235
+S'Bb Dominant Seven'
+p236
+aS'E 6 A 8 D 6 G 7 B 9 E 6 '
+p237
+aa(lp238
+S'B Dominant Seven'
+p239
+aS'E 7 A 9 D 7 G 8 B 10 E 7 '
+p240
+aa(lp241
+S'C Dominant Seven'
+p242
+aS'E 8 A 10 D 8 G 9 B 11 E 8 '
+p243
+aa(lp244
+S'Db Dominant Seven'
+p245
+aS'E 9 A 11 D 9 G 10 B 12 E 9 '
+p246
+aa(lp247
+S'D Dominant Seven'
+p248
+aS'E 10 A 12 D 10 G 11 B 13 E 10 '
+p249
+aa(lp250
+S'Eb Dominant Seven'
+p251
+aS'E 11 A 13 D 11 G 12 B 14 E 11 '
+p252
+aa(lp253
+S'E Dominant Seven'
+p254
+aS'E 12 A 14 D 12 G 13 B 15 E 12 '
+p255
+aa(lp256
+S'F Dominant Seven'
+p257
+aS'E 1 A 3 D 1 G 2 B 4 E 1 '
+p258
+aa(lp259
+S'F# Dominant Seven'
+p260
+aS'E 2 A 4 D 2 G 3 B 5 E 2 '
+p261
+aa(lp262
+S'G Dominant Seven'
+p263
+aS'E 3 A 5 D 3 G 4 B 6 E 3 '
+p264
+aa(lp265
+S'Ab Dominant Seven'
+p266
+aS'E 4 A 6 D 4 G 5 B 7 E 4 '
+p267
+aa(lp268
+S'A Dominant Seven'
+p269
+aS'E 5 A 4 D 2 G 2 B 2 E 3 '
+p270
+aa(lp271
+S'Bb Dominant Seven'
+p272
+aS'E 6 A 5 D 3 G 3 B 3 E 4 '
+p273
+aa(lp274
+S'B Dominant Seven'
+p275
+aS'E 7 A 6 D 4 G 4 B 4 E 5 '
+p276
+aa(lp277
+S'C Dominant Seven'
+p278
+aS'E 8 A 7 D 5 G 5 B 5 E 6 '
+p279
+aa(lp280
+S'Db Dominant Seven'
+p281
+aS'E 9 A 8 D 6 G 6 B 6 E 7 '
+p282
+aa(lp283
+S'D Dominant Seven'
+p284
+aS'E 10 A 9 D 7 G 7 B 7 E 8 '
+p285
+aa(lp286
+S'Eb Dominant Seven'
+p287
+aS'E 11 A 10 D 8 G 8 B 8 E 9 '
+p288
+aa(lp289
+S'E Dominant Seven'
+p290
+aS'E 12 A 11 D 9 G 9 B 9 E 10 '
+p291
+aa(lp292
+S'F Dominant Seven'
+p293
+aS'E 13 A 12 D 10 G 10 B 10 E 11 '
+p294
+aa(lp295
+S'F# Dominant Seven'
+p296
+aS'E 14 A 13 D 11 G 11 B 11 E 12 '
+p297
+aa(lp298
+S'G Dominant Seven'
+p299
+aS'E 15 A 14 D 12 G 12 B 12 E 13 '
+p300
+aa(lp301
+S'Ab Dominant Seven'
+p302
+aS'E 4 A 3 D 1 G 1 B 1 E 2 '
+p303
+aa(lp304
+S'A Dominant Seven'
+p305
+aS'E None A 12 D 14 G 14 B 14 E 15 '
+p306
+aa(lp307
+S'Bb Dominant Seven'
+p308
+aS'E None A 1 D 3 G 3 B 3 E 4 '
+p309
+aa(lp310
+S'B Dominant Seven'
+p311
+aS'E None A 2 D 4 G 4 B 4 E 5 '
+p312
+aa(lp313
+S'C Dominant Seven'
+p314
+aS'E None A 3 D 5 G 5 B 5 E 6 '
+p315
+aa(lp316
+S'Db Dominant Seven'
+p317
+aS'E None A 4 D 6 G 6 B 6 E 7 '
+p318
+aa(lp319
+S'D Dominant Seven'
+p320
+aS'E None A 5 D 7 G 7 B 7 E 8 '
+p321
+aa(lp322
+S'Eb Dominant Seven'
+p323
+aS'E None A 6 D 8 G 8 B 8 E 9 '
+p324
+aa(lp325
+S'E Dominant Seven'
+p326
+aS'E None A 7 D 9 G 9 B 9 E 10 '
+p327
+aa(lp328
+S'F Dominant Seven'
+p329
+aS'E None A 8 D 10 G 10 B 10 E 11 '
+p330
+aa(lp331
+S'F# Dominant Seven'
+p332
+aS'E None A 9 D 11 G 11 B 11 E 12 '
+p333
+aa(lp334
+S'G Dominant Seven'
+p335
+aS'E None A 10 D 12 G 12 B 12 E 13 '
+p336
+aa(lp337
+S'Ab Dominant Seven'
+p338
+aS'E None A 11 D 13 G 13 B 13 E 14 '
+p339
+aa(lp340
+S'A Dominant Seven'
+p341
+aS'E None A 12 D 11 G 12 B 10 E None '
+p342
+aa(lp343
+S'Bb Dominant Seven'
+p344
+aS'E None A 13 D 12 G 13 B 11 E None '
+p345
+aa(lp346
+S'B Dominant Seven'
+p347
+aS'E None A 14 D 13 G 14 B 12 E None '
+p348
+aa(lp349
+S'C Dominant Seven'
+p350
+aS'E None A 15 D 14 G 15 B 13 E None '
+p351
+aa(lp352
+S'Db Dominant Seven'
+p353
+aS'E None A 4 D 3 G 4 B 2 E None '
+p354
+aa(lp355
+S'D Dominant Seven'
+p356
+aS'E None A 5 D 4 G 5 B 3 E None '
+p357
+aa(lp358
+S'Eb Dominant Seven'
+p359
+aS'E None A 6 D 5 G 6 B 4 E None '
+p360
+aa(lp361
+S'E Dominant Seven'
+p362
+aS'E None A 7 D 6 G 7 B 5 E None '
+p363
+aa(lp364
+S'F Dominant Seven'
+p365
+aS'E None A 8 D 7 G 8 B 6 E None '
+p366
+aa(lp367
+S'F# Dominant Seven'
+p368
+aS'E None A 9 D 8 G 9 B 7 E None '
+p369
+aa(lp370
+S'G Dominant Seven'
+p371
+aS'E None A 10 D 9 G 10 B 8 E None '
+p372
+aa(lp373
+S'Ab Dominant Seven'
+p374
+aS'E None A 11 D 10 G 11 B 9 E None '
+p375
+aa(lp376
+S'A Dominant Seven'
+p377
+aS'E None A None D 7 G 9 B 8 E 9 '
+p378
+aa(lp379
+S'Bb Dominant Seven'
+p380
+aS'E None A None D 8 G 10 B 9 E 10 '
+p381
+aa(lp382
+S'B Dominant Seven'
+p383
+aS'E None A None D 9 G 11 B 10 E 11 '
+p384
+aa(lp385
+S'C Dominant Seven'
+p386
+aS'E None A None D 10 G 12 B 11 E 12 '
+p387
+aa(lp388
+S'Db Dominant Seven'
+p389
+aS'E None A None D 11 G 13 B 12 E 13 '
+p390
+aa(lp391
+S'D Dominant Seven'
+p392
+aS'E None A None D 12 G 14 B 13 E 14 '
+p393
+aa(lp394
+S'Eb Dominant Seven'
+p395
+aS'E None A None D 1 G 3 B 2 E 3 '
+p396
+aa(lp397
+S'E Dominant Seven'
+p398
+aS'E None A None D 2 G 4 B 3 E 4 '
+p399
+aa(lp400
+S'F Dominant Seven'
+p401
+aS'E None A None D 3 G 5 B 4 E 5 '
+p402
+aa(lp403
+S'F# Dominant Seven'
+p404
+aS'E None A None D 4 G 6 B 5 E 6 '
+p405
+aa(lp406
+S'G Dominant Seven'
+p407
+aS'E None A None D 5 G 7 B 6 E 7 '
+p408
+aa(lp409
+S'Ab Dominant Seven'
+p410
+aS'E None A None D 6 G 8 B 7 E 8 '
+p411
+aa(lp412
+S'A Major Seven'
+p413
+aS'E None A 0 D 2 G 1 B 2 E 0 E None A 0 D 2 G 2 B 2 E 4 '
+p414
+aa(lp415
+S'Bb Major Seven'
+p416
+aS'E None A 0 D 3 G 3 B 3 E 5 '
+p417
+aa(lp418
+S'B Major Seven'
+p419
+aS'E None A 2 D 1 G 3 B 0 E 2 '
+p420
+aa(lp421
+S'C Major Seven'
+p422
+aS'E None A 3 D 2 G 0 B 0 E 0 '
+p423
+aa(lp424
+S'D Major Seven'
+p425
+aS'E None A None D 0 G 2 B 2 E 2 '
+p426
+aa(lp427
+S'Eb Major Seven'
+p428
+aS'E None A None D 0 G 3 B 4 E 3 '
+p429
+aa(lp430
+S'E Major Seven'
+p431
+aS'E 0 A 2 D 1 G 1 B 0 E 0 '
+p432
+aa(lp433
+S'F Major Seven'
+p434
+aS'E None A None D 3 G 2 B 1 E 0 '
+p435
+aa(lp436
+S'G Major Seven'
+p437
+aS'E 3 A None D 0 G 0 B 0 E 2 '
+p438
+aa(lp439
+S'A Major Seven'
+p440
+aS'E 5 A 7 D 6 G 6 B 5 E 5 '
+p441
+aa(lp442
+S'Bb Major Seven'
+p443
+aS'E 6 A 8 D 7 G 7 B 6 E 6 '
+p444
+aa(lp445
+S'B Major Seven'
+p446
+aS'E 7 A 9 D 8 G 8 B 7 E 7 '
+p447
+aa(lp448
+S'C Major Seven'
+p449
+aS'E 8 A 10 D 9 G 9 B 8 E 8 '
+p450
+aa(lp451
+S'Db Major Seven'
+p452
+aS'E 9 A 11 D 10 G 10 B 9 E 9 '
+p453
+aa(lp454
+S'D Major Seven'
+p455
+aS'E 10 A 12 D 11 G 11 B 10 E 10 '
+p456
+aa(lp457
+S'Eb Major Seven'
+p458
+aS'E 11 A 13 D 12 G 12 B 11 E 11 '
+p459
+aa(lp460
+S'E Major Seven'
+p461
+aS'E 12 A 14 D 13 G 13 B 12 E 12 '
+p462
+aa(lp463
+S'F Major Seven'
+p464
+aS'E 1 A 3 D 2 G 2 B 1 E 1 '
+p465
+aa(lp466
+S'F# Major Seven'
+p467
+aS'E 2 A 4 D 3 G 3 B 2 E 2 '
+p468
+aa(lp469
+S'G Major Seven'
+p470
+aS'E 3 A 5 D 4 G 4 B 3 E 3 '
+p471
+aa(lp472
+S'Ab Major Seven'
+p473
+aS'E 4 A 6 D 5 G 5 B 4 E 4 '
+p474
+aa(lp475
+S'A Major Seven'
+p476
+aS'E None A 12 D 14 G 14 B 14 E 16 '
+p477
+aa(lp478
+S'Bb Major Seven'
+p479
+aS'E None A 1 D 3 G 3 B 3 E 5 '
+p480
+aa(lp481
+S'B Major Seven'
+p482
+aS'E None A 2 D 4 G 4 B 4 E 6 '
+p483
+aa(lp484
+S'C Major Seven'
+p485
+aS'E None A 3 D 5 G 5 B 5 E 7 '
+p486
+aa(lp487
+S'Db Major Seven'
+p488
+aS'E None A 4 D 6 G 6 B 6 E 8 '
+p489
+aa(lp490
+S'D Major Seven'
+p491
+aS'E None A 5 D 7 G 7 B 7 E 9 '
+p492
+aa(lp493
+S'Eb Major Seven'
+p494
+aS'E None A 6 D 8 G 8 B 8 E 10 '
+p495
+aa(lp496
+S'E Major Seven'
+p497
+aS'E None A 7 D 9 G 9 B 9 E 11 '
+p498
+aa(lp499
+S'F Major Seven'
+p500
+aS'E None A 8 D 10 G 10 B 10 E 12 '
+p501
+aa(lp502
+S'F# Major Seven'
+p503
+aS'E None A 9 D 11 G 11 B 11 E 13 '
+p504
+aa(lp505
+S'G Major Seven'
+p506
+aS'E None A 10 D 12 G 12 B 12 E 14 '
+p507
+aa(lp508
+S'Ab Major Seven'
+p509
+aS'E None A 11 D 13 G 13 B 13 E 15 '
+p510
+aa(lp511
+S'A Major Seven'
+p512
+aS'E None A 12 D 11 G 9 B 9 E None '
+p513
+aa(lp514
+S'Bb Major Seven'
+p515
+aS'E None A 13 D 12 G 10 B 10 E None '
+p516
+aa(lp517
+S'B Major Seven'
+p518
+aS'E None A 14 D 13 G 11 B 11 E None '
+p519
+aa(lp520
+S'C Major Seven'
+p521
+aS'E None A 15 D 14 G 12 B 12 E None '
+p522
+aa(lp523
+S'Db Major Seven'
+p524
+aS'E None A 4 D 3 G 1 B 1 E None '
+p525
+aa(lp526
+S'D Major Seven'
+p527
+aS'E None A 5 D 4 G 2 B 2 E None '
+p528
+aa(lp529
+S'Eb Major Seven'
+p530
+aS'E None A 6 D 5 G 3 B 3 E None '
+p531
+aa(lp532
+S'E Major Seven'
+p533
+aS'E None A 7 D 6 G 4 B 4 E None '
+p534
+aa(lp535
+S'F Major Seven'
+p536
+aS'E None A 8 D 7 G 5 B 5 E None '
+p537
+aa(lp538
+S'F# Major Seven'
+p539
+aS'E None A 9 D 8 G 6 B 6 E None '
+p540
+aa(lp541
+S'G Major Seven'
+p542
+aS'E None A 10 D 9 G 7 B 7 E None '
+p543
+aa(lp544
+S'Ab Major Seven'
+p545
+aS'E None A 11 D 10 G 8 B 8 E None '
+p546
+aa(lp547
+S'A Major Seven'
+p548
+aS'E None A None D 7 G 9 B 9 E 9 '
+p549
+aa(lp550
+S'Bb Major Seven'
+p551
+aS'E None A None D 8 G 10 B 10 E 10 '
+p552
+aa(lp553
+S'B Major Seven'
+p554
+aS'E None A None D 9 G 11 B 11 E 11 '
+p555
+aa(lp556
+S'C Major Seven'
+p557
+aS'E None A None D 10 G 12 B 12 E 12 '
+p558
+aa(lp559
+S'Db Major Seven'
+p560
+aS'E None A None D 11 G 13 B 13 E 13 '
+p561
+aa(lp562
+S'D Major Seven'
+p563
+aS'E None A None D 12 G 14 B 14 E 14 '
+p564
+aa(lp565
+S'Eb Major Seven'
+p566
+aS'E None A None D 1 G 3 B 3 E 3 '
+p567
+aa(lp568
+S'E Major Seven'
+p569
+aS'E None A None D 2 G 4 B 4 E 4 '
+p570
+aa(lp571
+S'F Major Seven'
+p572
+aS'E None A None D 3 G 5 B 5 E 5 '
+p573
+aa(lp574
+S'F# Major Seven'
+p575
+aS'E None A None D 4 G 6 B 6 E 6 '
+p576
+aa(lp577
+S'G Major Seven'
+p578
+aS'E None A None D 5 G 7 B 7 E 7 '
+p579
+aa(lp580
+S'Ab Major Seven'
+p581
+aS'E None A None D 6 G 8 B 8 E 8 '
+p582
+aa(lp583
+S'A Suspended'
+p584
+aS'E None A 0 D 2 G 2 B 3 E 0 '
+p585
+aa(lp586
+S'B Suspended'
+p587
+aS'E None A 2 D 4 G 4 B 0 E 0 '
+p588
+aa(lp589
+S'C Suspended'
+p590
+aS'E None A 3 D 3 G 0 B 1 E 1 '
+p591
+aa(lp592
+S'D Suspended'
+p593
+aS'E None A None D 0 G 2 B 3 E 3 '
+p594
+aa(lp595
+S'E Suspended'
+p596
+aS'E 0 A 2 D 2 G 2 B 0 E 0 '
+p597
+aa(lp598
+S'F# Suspended'
+p599
+aS'E None A 4 D 4 G None B 0 E 1 '
+p600
+aa(lp601
+S'G Suspended'
+p602
+aS'E 3 A 3 D 0 G 0 B 1 E 3 '
+p603
+aa(lp604
+S'A Suspended'
+p605
+aS'E 5 A 7 D 7 G 7 B 5 E 5 '
+p606
+aa(lp607
+S'Bb Suspended'
+p608
+aS'E 6 A 8 D 8 G 8 B 6 E 6 '
+p609
+aa(lp610
+S'B Suspended'
+p611
+aS'E 7 A 9 D 9 G 9 B 7 E 7 '
+p612
+aa(lp613
+S'C Suspended'
+p614
+aS'E 8 A 10 D 10 G 10 B 8 E 8 '
+p615
+aa(lp616
+S'Db Suspended'
+p617
+aS'E 9 A 11 D 11 G 11 B 9 E 9 '
+p618
+aa(lp619
+S'D Suspended'
+p620
+aS'E 10 A 12 D 12 G 12 B 10 E 10 '
+p621
+aa(lp622
+S'Eb Suspended'
+p623
+aS'E 11 A 13 D 13 G 13 B 11 E 11 '
+p624
+aa(lp625
+S'E Suspended'
+p626
+aS'E 12 A 14 D 14 G 14 B 12 E 12 '
+p627
+aa(lp628
+S'F Suspended'
+p629
+aS'E 1 A 3 D 3 G 3 B 1 E 1 '
+p630
+aa(lp631
+S'F# Suspended'
+p632
+aS'E 2 A 4 D 4 G 4 B 2 E 2 '
+p633
+aa(lp634
+S'G Suspended'
+p635
+aS'E 3 A 5 D 5 G 5 B 3 E 3 '
+p636
+aa(lp637
+S'Ab Suspended'
+p638
+aS'E 4 A 6 D 6 G 6 B 4 E 4 '
+p639
+aa(lp640
+S'A Suspended'
+p641
+aS'E None A 12 D 14 G 14 B 15 E 12 '
+p642
+aa(lp643
+S'Bb Suspended'
+p644
+aS'E None A 1 D 3 G 3 B 4 E 1 '
+p645
+aa(lp646
+S'B Suspended'
+p647
+aS'E None A 2 D 4 G 4 B 5 E 2 '
+p648
+aa(lp649
+S'C Suspended'
+p650
+aS'E None A 3 D 5 G 5 B 6 E 3 '
+p651
+aa(lp652
+S'Db Suspended'
+p653
+aS'E None A 4 D 6 G 6 B 7 E 4 '
+p654
+aa(lp655
+S'D Suspended'
+p656
+aS'E None A 5 D 7 G 7 B 8 E 5 '
+p657
+aa(lp658
+S'Eb Suspended'
+p659
+aS'E None A 6 D 8 G 8 B 9 E 6 '
+p660
+aa(lp661
+S'E Suspended'
+p662
+aS'E None A 7 D 9 G 9 B 10 E 7 '
+p663
+aa(lp664
+S'F Suspended'
+p665
+aS'E None A 8 D 10 G 10 B 11 E 8 '
+p666
+aa(lp667
+S'F# Suspended'
+p668
+aS'E None A 9 D 11 G 11 B 12 E 9 '
+p669
+aa(lp670
+S'G Suspended'
+p671
+aS'E None A 10 D 12 G 12 B 13 E 10 '
+p672
+aa(lp673
+S'Ab Suspended'
+p674
+aS'E None A 11 D 13 G 13 B 14 E 11 '
+p675
+aa(lp676
+S'A Suspended'
+p677
+aS'E None A None D 12 G 9 B 10 E 12 '
+p678
+aa(lp679
+S'Bb Suspended'
+p680
+aS'E None A None D 13 G 10 B 11 E 13 '
+p681
+aa(lp682
+S'B Suspended'
+p683
+aS'E None A None D 14 G 11 B 12 E 14 '
+p684
+aa(lp685
+S'C Suspended'
+p686
+aS'E None A None D 15 G 12 B 13 E 15 '
+p687
+aa(lp688
+S'Db Suspended'
+p689
+aS'E None A None D 4 G 1 B 2 E 4 '
+p690
+aa(lp691
+S'D Suspended'
+p692
+aS'E None A None D 5 G 2 B 3 E 5 '
+p693
+aa(lp694
+S'Eb Suspended'
+p695
+aS'E None A None D 6 G 3 B 4 E 6 '
+p696
+aa(lp697
+S'E Suspended'
+p698
+aS'E None A None D 7 G 4 B 5 E 7 '
+p699
+aa(lp700
+S'F Suspended'
+p701
+aS'E None A None D 8 G 5 B 6 E 8 '
+p702
+aa(lp703
+S'F# Suspended'
+p704
+aS'E None A None D 9 G 6 B 7 E 9 '
+p705
+aa(lp706
+S'G Suspended'
+p707
+aS'E None A None D 10 G 7 B 8 E 10 '
+p708
+aa(lp709
+S'Ab Suspended'
+p710
+aS'E None A None D 11 G 8 B 9 E 11 '
+p711
+aa(lp712
+S'A Suspended'
+p713
+aS'E None A None D 7 G 9 B 10 E 10 '
+p714
+aa(lp715
+S'Bb Suspended'
+p716
+aS'E None A None D 8 G 10 B 11 E 11 '
+p717
+aa(lp718
+S'B Suspended'
+p719
+aS'E None A None D 9 G 11 B 12 E 12 '
+p720
+aa(lp721
+S'C Suspended'
+p722
+aS'E None A None D 10 G 12 B 13 E 13 '
+p723
+aa(lp724
+S'Db Suspended'
+p725
+aS'E None A None D 11 G 13 B 14 E 14 '
+p726
+aa(lp727
+S'D Suspended'
+p728
+aS'E None A None D 12 G 14 B 15 E 15 '
+p729
+aa(lp730
+S'Eb Suspended'
+p731
+aS'E None A None D 1 G 3 B 4 E 4 '
+p732
+aa(lp733
+S'E Suspended'
+p734
+aS'E None A None D 2 G 4 B 5 E 5 '
+p735
+aa(lp736
+S'F Suspended'
+p737
+aS'E None A None D 3 G 5 B 6 E 6 '
+p738
+aa(lp739
+S'F# Suspended'
+p740
+aS'E None A None D 4 G 6 B 7 E 7 '
+p741
+aa(lp742
+S'G Suspended'
+p743
+aS'E None A None D 5 G 7 B 8 E 8 '
+p744
+aa(lp745
+S'Ab Suspended'
+p746
+aS'E None A None D 6 G 8 B 9 E 9 '
+p747
+aa(lp748
+S'A Minor'
+p749
+aS'E None A 0 D 2 G 2 B 1 E 0 '
+p750
+aa(lp751
+S'B Minor'
+p752
+aS'E None A None D 0 G 4 B 3 E 2 '
+p753
+aa(lp754
+S'C Minor'
+p755
+aS'E None A 3 D 1 G 0 B 1 E None '
+p756
+aa(lp757
+S'C# Minor'
+p758
+aS'E None A None D 2 G 1 B 2 E 0 '
+p759
+aa(lp760
+S'D Minor'
+p761
+aS'E None A None D 0 G 2 B 3 E 1 '
+p762
+aa(lp763
+S'E Minor'
+p764
+aS'E 0 A 2 D 2 G 0 B 0 E 0 '
+p765
+aa(lp766
+S'F# Minor'
+p767
+aS'E None A 0 D 4 G 2 B 2 E 2 '
+p768
+aa(lp769
+S'G Minor'
+p770
+aS'E 3 A None D 0 G 3 B 3 E 3 '
+p771
+aa(lp772
+S'A Minor'
+p773
+aS'E 5 A 7 D 7 G 5 B 5 E 5 '
+p774
+aa(lp775
+S'Bb Minor'
+p776
+aS'E 6 A 8 D 8 G 6 B 6 E 6 '
+p777
+aa(lp778
+S'B Minor'
+p779
+aS'E 7 A 9 D 9 G 7 B 7 E 7 '
+p780
+aa(lp781
+S'C Minor'
+p782
+aS'E 8 A 10 D 10 G 8 B 8 E 8 '
+p783
+aa(lp784
+S'C# Minor'
+p785
+aS'E 9 A 11 D 11 G 9 B 9 E 9 '
+p786
+aa(lp787
+S'D Minor'
+p788
+aS'E 10 A 12 D 12 G 10 B 10 E 10 '
+p789
+aa(lp790
+S'Eb Minor'
+p791
+aS'E 11 A 13 D 13 G 11 B 11 E 11 '
+p792
+aa(lp793
+S'E Minor'
+p794
+aS'E 12 A 14 D 14 G 12 B 12 E 12 '
+p795
+aa(lp796
+S'F Minor'
+p797
+aS'E 1 A 3 D 3 G 1 B 1 E 1 '
+p798
+aa(lp799
+S'F# Minor'
+p800
+aS'E 2 A 4 D 4 G 2 B 2 E 2 '
+p801
+aa(lp802
+S'G Minor'
+p803
+aS'E 3 A 5 D 5 G 3 B 3 E 3 '
+p804
+aa(lp805
+S'G# Minor'
+p806
+aS'E 4 A 6 D 6 G 4 B 4 E 4 '
+p807
+aa(lp808
+S'A Minor'
+p809
+aS'E None A 12 D 14 G 14 B 13 E 12 '
+p810
+aa(lp811
+S'Bb Minor'
+p812
+aS'E None A 1 D 3 G 3 B 2 E 1 '
+p813
+aa(lp814
+S'B Minor'
+p815
+aS'E None A 2 D 4 G 4 B 3 E 2 '
+p816
+aa(lp817
+S'C Minor'
+p818
+aS'E None A 3 D 5 G 5 B 4 E 3 '
+p819
+aa(lp820
+S'C# Minor'
+p821
+aS'E None A 4 D 6 G 6 B 5 E 4 '
+p822
+aa(lp823
+S'D Minor'
+p824
+aS'E None A 5 D 7 G 7 B 6 E 5 '
+p825
+aa(lp826
+S'Eb Minor'
+p827
+aS'E None A 6 D 8 G 8 B 7 E 6 '
+p828
+aa(lp829
+S'E Minor'
+p830
+aS'E None A 7 D 9 G 9 B 8 E 7 '
+p831
+aa(lp832
+S'F Minor'
+p833
+aS'E None A 8 D 10 G 10 B 9 E 8 '
+p834
+aa(lp835
+S'F# Minor'
+p836
+aS'E None A 9 D 11 G 11 B 10 E 9 '
+p837
+aa(lp838
+S'G Minor'
+p839
+aS'E None A 10 D 12 G 12 B 11 E 10 '
+p840
+aa(lp841
+S'G# Minor'
+p842
+aS'E None A 11 D 13 G 13 B 12 E 11 '
+p843
+aa(lp844
+S'A Minor'
+p845
+aS'E None A 12 D 10 G 9 B 10 E None '
+p846
+aa(lp847
+S'Bb Minor'
+p848
+aS'E None A 13 D 11 G 10 B 11 E None '
+p849
+aa(lp850
+S'B Minor'
+p851
+aS'E None A 14 D 12 G 11 B 12 E None '
+p852
+aa(lp853
+S'C Minor'
+p854
+aS'E None A 15 D 13 G 12 B 13 E None '
+p855
+aa(lp856
+S'C# Minor'
+p857
+aS'E None A 4 D 2 G 1 B 2 E None '
+p858
+aa(lp859
+S'D Minor'
+p860
+aS'E None A 5 D 3 G 2 B 3 E None '
+p861
+aa(lp862
+S'Eb Minor'
+p863
+aS'E None A 6 D 4 G 3 B 4 E None '
+p864
+aa(lp865
+S'E Minor'
+p866
+aS'E None A 7 D 5 G 4 B 5 E None '
+p867
+aa(lp868
+S'F Minor'
+p869
+aS'E None A 8 D 6 G 5 B 6 E None '
+p870
+aa(lp871
+S'F# Minor'
+p872
+aS'E None A 9 D 7 G 6 B 7 E None '
+p873
+aa(lp874
+S'G Minor'
+p875
+aS'E None A 10 D 8 G 7 B 8 E None '
+p876
+aa(lp877
+S'G# Minor'
+p878
+aS'E None A 11 D 9 G 8 B 9 E None '
+p879
+aa(lp880
+S'A Minor'
+p881
+aS'E None A None D 7 G 9 B 10 E 8 '
+p882
+aa(lp883
+S'Bb Minor'
+p884
+aS'E None A None D 8 G 10 B 11 E 9 '
+p885
+aa(lp886
+S'B Minor'
+p887
+aS'E None A None D 9 G 11 B 12 E 10 '
+p888
+aa(lp889
+S'C Minor'
+p890
+aS'E None A None D 10 G 12 B 13 E 11 '
+p891
+aa(lp892
+S'C# Minor'
+p893
+aS'E None A None D 11 G 13 B 14 E 12 '
+p894
+aa(lp895
+S'D Minor'
+p896
+aS'E None A None D 12 G 14 B 15 E 13 '
+p897
+aa(lp898
+S'Eb Minor'
+p899
+aS'E None A None D 1 G 3 B 4 E 2 '
+p900
+aa(lp901
+S'E Minor'
+p902
+aS'E None A None D 2 G 4 B 5 E 3 '
+p903
+aa(lp904
+S'F Minor'
+p905
+aS'E None A None D 3 G 5 B 6 E 4 '
+p906
+aa(lp907
+S'F# Minor'
+p908
+aS'E None A None D 4 G 6 B 7 E 5 '
+p909
+aa(lp910
+S'G Minor'
+p911
+aS'E None A None D 5 G 7 B 8 E 6 '
+p912
+aa(lp913
+S'G# Minor'
+p914
+aS'E None A None D 6 G 8 B 9 E 7 '
+p915
+aa(lp916
+S'A Minor Seven'
+p917
+aS'E None A 0 D 2 G 0 B 1 E 0 '
+p918
+aa(lp919
+S'B Minor Seven'
+p920
+aS'E None A 2 D 0 G 2 B 0 E 2 '
+p921
+aa(lp922
+S'C Minor Seven'
+p923
+aS'E None A 1 D 1 G 0 B 1 E None '
+p924
+aa(lp925
+S'C# Minor Seven'
+p926
+aS'E None A 2 D 2 G 1 B 2 E 0 '
+p927
+aa(lp928
+S'D Minor Seven'
+p929
+aS'E None A None D 0 G 2 B 1 E 1 '
+p930
+aa(lp931
+S'E Minor Seven'
+p932
+aS'E 0 A 2 D 2 G 0 B 3 E 0 '
+p933
+aa(lp934
+S'F# Minor Seven'
+p935
+aS'E None A None D 4 G 2 B 2 E 0 '
+p936
+aa(lp937
+S'G# Minor Seven'
+p938
+aS'E None A None D 1 G 1 B 0 E 2 '
+p939
+aa(lp940
+S'A Minor Seven'
+p941
+aS'E 5 A 7 D 5 G 5 B 8 E 5 '
+p942
+aa(lp943
+S'Bb Minor Seven'
+p944
+aS'E 6 A 8 D 6 G 6 B 9 E 6 '
+p945
+aa(lp946
+S'B Minor Seven'
+p947
+aS'E 7 A 9 D 7 G 7 B 10 E 7 '
+p948
+aa(lp949
+S'C Minor Seven'
+p950
+aS'E 8 A 10 D 8 G 8 B 11 E 8 '
+p951
+aa(lp952
+S'C# Minor Seven'
+p953
+aS'E 9 A 11 D 9 G 9 B 12 E 9 '
+p954
+aa(lp955
+S'D Minor Seven'
+p956
+aS'E 10 A 12 D 10 G 10 B 13 E 10 '
+p957
+aa(lp958
+S'Eb Minor Seven'
+p959
+aS'E 11 A 13 D 11 G 11 B 14 E 11 '
+p960
+aa(lp961
+S'E Minor Seven'
+p962
+aS'E 12 A 14 D 12 G 12 B 15 E 12 '
+p963
+aa(lp964
+S'F Minor Seven'
+p965
+aS'E 1 A 3 D 1 G 1 B 4 E 1 '
+p966
+aa(lp967
+S'F# Minor Seven'
+p968
+aS'E 2 A 4 D 2 G 2 B 5 E 2 '
+p969
+aa(lp970
+S'G Minor Seven'
+p971
+aS'E 3 A 5 D 3 G 3 B 6 E 3 '
+p972
+aa(lp973
+S'G# Minor Seven'
+p974
+aS'E 4 A 6 D 4 G 4 B 7 E 4 '
+p975
+aa(lp976
+S'A Minor Seven'
+p977
+aS'E None A 12 D 14 G 12 B 13 E 15 '
+p978
+aa(lp979
+S'Bb Minor Seven'
+p980
+aS'E None A 1 D 3 G 1 B 2 E 4 '
+p981
+aa(lp982
+S'B Minor Seven'
+p983
+aS'E None A 2 D 4 G 2 B 3 E 5 '
+p984
+aa(lp985
+S'C Minor Seven'
+p986
+aS'E None A 3 D 5 G 3 B 4 E 6 '
+p987
+aa(lp988
+S'C# Minor Seven'
+p989
+aS'E None A 4 D 6 G 4 B 5 E 7 '
+p990
+aa(lp991
+S'D Minor Seven'
+p992
+aS'E None A 5 D 7 G 5 B 6 E 8 '
+p993
+aa(lp994
+S'Eb Minor Seven'
+p995
+aS'E None A 6 D 8 G 6 B 7 E 9 '
+p996
+aa(lp997
+S'E Minor Seven'
+p998
+aS'E None A 7 D 9 G 7 B 8 E 10 '
+p999
+aa(lp1000
+S'F Minor Seven'
+p1001
+aS'E None A 8 D 10 G 8 B 9 E 11 '
+p1002
+aa(lp1003
+S'F# Minor Seven'
+p1004
+aS'E None A 9 D 11 G 9 B 10 E 12 '
+p1005
+aa(lp1006
+S'G Minor Seven'
+p1007
+aS'E None A 10 D 12 G 10 B 11 E 13 '
+p1008
+aa(lp1009
+S'G# Minor Seven'
+p1010
+aS'E None A 11 D 13 G 11 B 12 E 14 '
+p1011
+aa(lp1012
+S'A Minor Seven'
+p1013
+aS'E None A 12 D 10 G 12 B 10 E 12 '
+p1014
+aa(lp1015
+S'Bb Minor Seven'
+p1016
+aS'E None A 13 D 11 G 13 B 11 E 13 '
+p1017
+aa(lp1018
+S'B Minor Seven'
+p1019
+aS'E None A 14 D 12 G 14 B 12 E 14 '
+p1020
+aa(lp1021
+S'C Minor Seven'
+p1022
+aS'E None A 3 D 1 G 3 B 1 E 3 '
+p1023
+aa(lp1024
+S'C# Minor Seven'
+p1025
+aS'E None A 4 D 2 G 4 B 2 E 4 '
+p1026
+aa(lp1027
+S'D Minor Seven'
+p1028
+aS'E None A 5 D 3 G 5 B 3 E 5 '
+p1029
+aa(lp1030
+S'Eb Minor Seven'
+p1031
+aS'E None A 6 D 4 G 6 B 4 E 6 '
+p1032
+aa(lp1033
+S'E Minor Seven'
+p1034
+aS'E None A 7 D 5 G 7 B 5 E 7 '
+p1035
+aa(lp1036
+S'F Minor Seven'
+p1037
+aS'E None A 8 D 6 G 8 B 6 E 8 '
+p1038
+aa(lp1039
+S'F# Minor Seven'
+p1040
+aS'E None A 9 D 7 G 9 B 7 E 9 '
+p1041
+aa(lp1042
+S'G Minor Seven'
+p1043
+aS'E None A 10 D 8 G 10 B 8 E 10 '
+p1044
+aa(lp1045
+S'G# Minor Seven'
+p1046
+aS'E None A 11 D 9 G 11 B 9 E 11 '
+p1047
+aa(lp1048
+S'A Minor Seven'
+p1049
+aS'E None A None D 7 G 9 B 8 E 8 '
+p1050
+aa(lp1051
+S'Bb Minor Seven'
+p1052
+aS'E None A None D 8 G 10 B 9 E 9 '
+p1053
+aa(lp1054
+S'B Minor Seven'
+p1055
+aS'E None A None D 9 G 11 B 10 E 10 '
+p1056
+aa(lp1057
+S'C Minor Seven'
+p1058
+aS'E None A None D 10 G 12 B 11 E 11 '
+p1059
+aa(lp1060
+S'C# Minor Seven'
+p1061
+aS'E None A None D 11 G 13 B 12 E 12 '
+p1062
+aa(lp1063
+S'D Minor Seven'
+p1064
+aS'E None A None D 12 G 14 B 13 E 13 '
+p1065
+aa(lp1066
+S'Eb Minor Seven'
+p1067
+aS'E None A None D 1 G 3 B 2 E 2 '
+p1068
+aa(lp1069
+S'E Minor Seven'
+p1070
+aS'E None A None D 2 G 4 B 3 E 3 '
+p1071
+aa(lp1072
+S'F Minor Seven'
+p1073
+aS'E None A None D 3 G 5 B 4 E 4 '
+p1074
+aa(lp1075
+S'F# Minor Seven'
+p1076
+aS'E None A None D 4 G 6 B 5 E 5 '
+p1077
+aa(lp1078
+S'G Minor Seven'
+p1079
+aS'E None A None D 5 G 7 B 6 E 6 '
+p1080
+aa(lp1081
+S'G# Minor Seven'
+p1082
+aS'E None A None D 6 G 8 B 7 E 7 '
+p1083
+aa(lp1084
+S'Ab Augmented'
+p1085
+aS'E None A None D 2 G 1 B 1 E 0 '
+p1086
+aa(lp1087
+S'A Augmented'
+p1088
+aS'E None A 0 D 3 G 2 B 2 E 1 '
+p1089
+aa(lp1090
+S'A# Augmented'
+p1091
+aS'E None A None D 0 G 3 B 3 E 2 '
+p1092
+aa(lp1093
+S'Bb Augmented'
+p1094
+aS'E None A None D 0 G 3 B 3 E 2 '
+p1095
+aa(lp1096
+S'B Augmented'
+p1097
+aS'E None A 2 D 1 G 0 B 0 E 3 '
+p1098
+aa(lp1099
+S'C Augmented'
+p1100
+aS'E None A 3 D 2 G 1 B 1 E 0 '
+p1101
+aa(lp1102
+S'C# Augmented'
+p1103
+aS'E None A 0 D 3 G 2 B 2 E 1 '
+p1104
+aa(lp1105
+S'Db Augmented'
+p1106
+aS'E None A 0 D 3 G 2 B 2 E 1 '
+p1107
+aa(lp1108
+S'D Augmented'
+p1109
+aS'E None A None D 0 G 3 B 3 E 2 '
+p1110
+aa(lp1111
+S'D# Augmented'
+p1112
+aS'E None A None D 1 G 0 B 0 E 3 '
+p1113
+aa(lp1114
+S'Eb Augmented'
+p1115
+aS'E None A None D 1 G 0 B 0 E 3 '
+p1116
+aa(lp1117
+S'E Augmented'
+p1118
+aS'E None A None D 2 G 1 B 1 E 0 '
+p1119
+aa(lp1120
+S'F Augmented'
+p1121
+aS'E None A 0 D 3 G 2 B 2 E 1 '
+p1122
+aa(lp1123
+S'F# Augmented'
+p1124
+aS'E None A None D 0 G 3 B 3 E 2 '
+p1125
+aa(lp1126
+S'Gb Augmented'
+p1127
+aS'E None A None D 0 G 3 B 3 E 2 '
+p1128
+aa(lp1129
+S'G Augmented'
+p1130
+aS'E None A None D 1 G 0 B 0 E 3 '
+p1131
+aa(lp1132
+S'G# Augmented'
+p1133
+aS'E None A None D 2 G 1 B 1 E 0 '
+p1134
+aa(lp1135
+S'Ab Augmented'
+p1136
+aS'E None A None D 6 G 5 B 5 E 4 '
+p1137
+aa(lp1138
+S'A Augmented'
+p1139
+aS'E None A None D 7 G 6 B 6 E 5 '
+p1140
+aa(lp1141
+S'A# Augmented'
+p1142
+aS'E None A None D 8 G 7 B 7 E 6 '
+p1143
+aa(lp1144
+S'Bb Augmented'
+p1145
+aS'E None A None D 8 G 7 B 7 E 6 '
+p1146
+aa(lp1147
+S'B Augmented'
+p1148
+aS'E None A None D 9 G 8 B 8 E 7 '
+p1149
+aa(lp1150
+S'C Augmented'
+p1151
+aS'E None A None D 10 G 9 B 9 E 8 '
+p1152
+aa(lp1153
+S'C# Augmented'
+p1154
+aS'E None A None D 11 G 10 B 10 E 9 '
+p1155
+aa(lp1156
+S'Db Augmented'
+p1157
+aS'E None A None D 11 G 10 B 10 E 9 '
+p1158
+aa(lp1159
+S'D Augmented'
+p1160
+aS'E None A None D 12 G 11 B 11 E 10 '
+p1161
+aa(lp1162
+S'D# Augmented'
+p1163
+aS'E None A None D 13 G 12 B 12 E 11 '
+p1164
+aa(lp1165
+S'Eb Augmented'
+p1166
+aS'E None A None D 13 G 12 B 12 E 11 '
+p1167
+aa(lp1168
+S'E Augmented'
+p1169
+aS'E None A None D 14 G 13 B 13 E 12 '
+p1170
+aa(lp1171
+S'F Augmented'
+p1172
+aS'E None A None D 3 G 2 B 2 E 1 '
+p1173
+aa(lp1174
+S'F# Augmented'
+p1175
+aS'E None A None D 4 G 3 B 3 E 2 '
+p1176
+aa(lp1177
+S'Gb Augmented'
+p1178
+aS'E None A None D 4 G 3 B 3 E 2 '
+p1179
+aa(lp1180
+S'G Augmented'
+p1181
+aS'E None A None D 5 G 4 B 4 E 3 '
+p1182
+aa(lp1183
+S'G# Augmented'
+p1184
+aS'E None A None D 6 G 5 B 5 E 4 '
+p1185
+aa(lp1186
+S'Ab Augmented'
+p1187
+aS'E 4 A 3 D 2 G 1 B 1 E None '
+p1188
+aa(lp1189
+S'A Augmented'
+p1190
+aS'E 5 A 4 D 3 G 2 B 2 E None '
+p1191
+aa(lp1192
+S'A# Augmented'
+p1193
+aS'E 6 A 5 D 4 G 3 B 3 E None '
+p1194
+aa(lp1195
+S'Bb Augmented'
+p1196
+aS'E 6 A 5 D 4 G 3 B 3 E None '
+p1197
+aa(lp1198
+S'B Augmented'
+p1199
+aS'E 7 A 6 D 5 G 4 B 4 E None '
+p1200
+aa(lp1201
+S'C Augmented'
+p1202
+aS'E 8 A 7 D 6 G 5 B 5 E None '
+p1203
+aa(lp1204
+S'C# Augmented'
+p1205
+aS'E 9 A 8 D 7 G 6 B 6 E None '
+p1206
+aa(lp1207
+S'Db Augmented'
+p1208
+aS'E 9 A 8 D 7 G 6 B 6 E None '
+p1209
+aa(lp1210
+S'D Augmented'
+p1211
+aS'E 10 A 9 D 8 G 7 B 7 E None '
+p1212
+aa(lp1213
+S'D# Augmented'
+p1214
+aS'E 11 A 10 D 9 G 8 B 8 E None '
+p1215
+aa(lp1216
+S'Eb Augmented'
+p1217
+aS'E 11 A 10 D 9 G 8 B 8 E None '
+p1218
+aa(lp1219
+S'E Augmented'
+p1220
+aS'E 12 A 11 D 10 G 9 B 9 E None '
+p1221
+aa(lp1222
+S'F Augmented'
+p1223
+aS'E 13 A 12 D 11 G 10 B 10 E None '
+p1224
+aa(lp1225
+S'F# Augmented'
+p1226
+aS'E 14 A 13 D 12 G 11 B 11 E None '
+p1227
+aa(lp1228
+S'Gb Augmented'
+p1229
+aS'E 14 A 13 D 12 G 11 B 11 E None '
+p1230
+aa(lp1231
+S'G Augmented'
+p1232
+aS'E 15 A 14 D 13 G 12 B 12 E None '
+p1233
+aa(lp1234
+S'G# Augmented'
+p1235
+aS'E 4 A 3 D 2 G 1 B 1 E None '
+p1236
+aa(lp1237
+S'Ab Augmented'
+p1238
+aS'E None A 11 D 10 G 9 B 9 E 12 '
+p1239
+aa(lp1240
+S'A Augmented'
+p1241
+aS'E None A 12 D 11 G 10 B 10 E 13 '
+p1242
+aa(lp1243
+S'A# Augmented'
+p1244
+aS'E None A 13 D 12 G 11 B 11 E 14 '
+p1245
+aa(lp1246
+S'Bb Augmented'
+p1247
+aS'E None A 13 D 12 G 11 B 11 E 14 '
+p1248
+aa(lp1249
+S'B Augmented'
+p1250
+aS'E None A 14 D 13 G 12 B 12 E 15 '
+p1251
+aa(lp1252
+S'C Augmented'
+p1253
+aS'E None A 3 D 2 G 1 B 1 E 4 '
+p1254
+aa(lp1255
+S'C# Augmented'
+p1256
+aS'E None A 4 D 3 G 2 B 2 E 5 '
+p1257
+aa(lp1258
+S'Db Augmented'
+p1259
+aS'E None A 4 D 3 G 2 B 2 E 5 '
+p1260
+aa(lp1261
+S'D Augmented'
+p1262
+aS'E None A 5 D 4 G 3 B 3 E 6 '
+p1263
+aa(lp1264
+S'D# Augmented'
+p1265
+aS'E None A 6 D 5 G 4 B 4 E 7 '
+p1266
+aa(lp1267
+S'Eb Augmented'
+p1268
+aS'E None A 6 D 5 G 4 B 4 E 7 '
+p1269
+aa(lp1270
+S'E Augmented'
+p1271
+aS'E None A 7 D 6 G 5 B 5 E 8 '
+p1272
+aa(lp1273
+S'F Augmented'
+p1274
+aS'E None A 8 D 7 G 6 B 6 E 9 '
+p1275
+aa(lp1276
+S'F# Augmented'
+p1277
+aS'E None A 9 D 8 G 7 B 7 E 10 '
+p1278
+aa(lp1279
+S'Gb Augmented'
+p1280
+aS'E None A 9 D 8 G 7 B 7 E 10 '
+p1281
+aa(lp1282
+S'G Augmented'
+p1283
+aS'E None A 10 D 9 G 8 B 8 E 11 '
+p1284
+aa(lp1285
+S'G# Augmented'
+p1286
+aS'E None A 11 D 10 G 9 B 9 E 0 '
+p1287
+aa(lp1288
+S'Ab Major Flat Five'
+p1289
+aS'E None A 3 D 0 G 1 B 1 E None '
+p1290
+aa(lp1291
+S'A Major Flat Five'
+p1292
+aS'E None A 0 D 1 G 2 B 2 E None '
+p1293
+aa(lp1294
+S'A# Major Flat Five'
+p1295
+aS'E None A 1 D 2 G 3 B 3 E 0 '
+p1296
+aa(lp1297
+S'Bb Major Flat Five'
+p1298
+aS'E None A 1 D 2 G 3 B 3 E 0 '
+p1299
+aa(lp1300
+S'B Major Flat Five'
+p1301
+aS'E None A 2 D 3 G None B 0 E 1 '
+p1302
+aa(lp1303
+S'C Major Flat Five'
+p1304
+aS'E None A 3 D 4 G 5 B 5 E 0 '
+p1305
+aa(lp1306
+S'C# Major Flat Five'
+p1307
+aS'E None A None D 3 G 0 B 2 E 1 '
+p1308
+aa(lp1309
+S'Db Major Flat Five'
+p1310
+aS'E None A None D 3 G 0 B 2 E 1 '
+p1311
+aa(lp1312
+S'D Major Flat Five'
+p1313
+aS'E None A None D 0 G 1 B 3 E 2 '
+p1314
+aa(lp1315
+S'D# Major Flat Five'
+p1316
+aS'E None A 0 D 1 G 0 B 4 E 3 '
+p1317
+aa(lp1318
+S'Eb Major Flat Five'
+p1319
+aS'E None A 0 D 1 G 0 B 4 E 3 '
+p1320
+aa(lp1321
+S'E Major Flat Five'
+p1322
+aS'E None A 1 D 2 G 1 B None E 0 '
+p1323
+aa(lp1324
+S'F Major Flat Five'
+p1325
+aS'E None A None D 3 G 2 B 0 E 1 '
+p1326
+aa(lp1327
+S'G Major Flat Five'
+p1328
+aS'E None A 4 D 5 G 0 B 0 E 3 '
+p1329
+aa(lp1330
+S'G# Major Flat Five'
+p1331
+aS'E None A 3 D 0 G 1 B 1 E None '
+p1332
+aa(lp1333
+S'Ab Major Flat Five'
+p1334
+aS'E 4 A 5 D 6 G 5 B None E 4 '
+p1335
+aa(lp1336
+S'A Major Flat Five'
+p1337
+aS'E 5 A 6 D 7 G 6 B None E 5 '
+p1338
+aa(lp1339
+S'A# Major Flat Five'
+p1340
+aS'E 6 A 7 D 8 G 7 B None E 6 '
+p1341
+aa(lp1342
+S'Bb Major Flat Five'
+p1343
+aS'E 6 A 7 D 8 G 7 B None E 6 '
+p1344
+aa(lp1345
+S'B Major Flat Five'
+p1346
+aS'E 7 A 8 D 9 G 8 B None E 7 '
+p1347
+aa(lp1348
+S'C Major Flat Five'
+p1349
+aS'E 8 A 9 D 10 G 9 B None E 8 '
+p1350
+aa(lp1351
+S'C# Major Flat Five'
+p1352
+aS'E 9 A 10 D 11 G 10 B None E 9 '
+p1353
+aa(lp1354
+S'Db Major Flat Five'
+p1355
+aS'E 9 A 10 D 11 G 10 B None E 9 '
+p1356
+aa(lp1357
+S'D Major Flat Five'
+p1358
+aS'E 10 A 11 D 12 G 11 B None E 10 '
+p1359
+aa(lp1360
+S'D# Major Flat Five'
+p1361
+aS'E 11 A 12 D 13 G 12 B None E 11 '
+p1362
+aa(lp1363
+S'Eb Major Flat Five'
+p1364
+aS'E 11 A 12 D 13 G 12 B None E 11 '
+p1365
+aa(lp1366
+S'E Major Flat Five'
+p1367
+aS'E 12 A 13 D 14 G 13 B None E 12 '
+p1368
+aa(lp1369
+S'F Major Flat Five'
+p1370
+aS'E 1 A 2 D 3 G 2 B None E 1 '
+p1371
+aa(lp1372
+S'F# Major Flat Five'
+p1373
+aS'E 2 A 3 D 4 G 3 B None E 2 '
+p1374
+aa(lp1375
+S'Gb Major Flat Five'
+p1376
+aS'E 2 A 3 D 4 G 3 B None E 2 '
+p1377
+aa(lp1378
+S'G Major Flat Five'
+p1379
+aS'E 3 A 4 D 5 G 4 B None E 3 '
+p1380
+aa(lp1381
+S'G# Major Flat Five'
+p1382
+aS'E 4 A 5 D 6 G 5 B None E 4 '
+p1383
+aa(lp1384
+S'Ab Major Flat Five'
+p1385
+aS'E None A 11 D 12 G 13 B 13 E None '
+p1386
+aa(lp1387
+S'A Major Flat Five'
+p1388
+aS'E None A 12 D 13 G 14 B 14 E None '
+p1389
+aa(lp1390
+S'A# Major Flat Five'
+p1391
+aS'E None A 1 D 2 G 3 B 3 E None '
+p1392
+aa(lp1393
+S'Bb Major Flat Five'
+p1394
+aS'E None A 1 D 2 G 3 B 3 E None '
+p1395
+aa(lp1396
+S'B Major Flat Five'
+p1397
+aS'E None A 2 D 3 G 4 B 4 E None '
+p1398
+aa(lp1399
+S'C Major Flat Five'
+p1400
+aS'E None A 3 D 4 G 5 B 5 E None '
+p1401
+aa(lp1402
+S'C# Major Flat Five'
+p1403
+aS'E None A 4 D 5 G 6 B 6 E None '
+p1404
+aa(lp1405
+S'Db Major Flat Five'
+p1406
+aS'E None A 4 D 5 G 6 B 6 E None '
+p1407
+aa(lp1408
+S'D Major Flat Five'
+p1409
+aS'E None A 5 D 6 G 7 B 7 E None '
+p1410
+aa(lp1411
+S'D# Major Flat Five'
+p1412
+aS'E None A 6 D 7 G 8 B 8 E None '
+p1413
+aa(lp1414
+S'Eb Major Flat Five'
+p1415
+aS'E None A 6 D 7 G 8 B 8 E None '
+p1416
+aa(lp1417
+S'E Major Flat Five'
+p1418
+aS'E None A 7 D 8 G 9 B 9 E None '
+p1419
+aa(lp1420
+S'F Major Flat Five'
+p1421
+aS'E None A 8 D 9 G 10 B 10 E None '
+p1422
+aa(lp1423
+S'F# Major Flat Five'
+p1424
+aS'E None A 9 D 10 G 11 B 11 E None '
+p1425
+aa(lp1426
+S'Gb Major Flat Five'
+p1427
+aS'E None A 9 D 10 G 11 B 11 E None '
+p1428
+aa(lp1429
+S'G Major Flat Five'
+p1430
+aS'E None A 10 D 11 G 12 B 12 E None '
+p1431
+aa(lp1432
+S'G# Major Flat Five'
+p1433
+aS'E None A 11 D 12 G 13 B 13 E None '
+p1434
+aa(lp1435
+S'Ab Major Flat Five'
+p1436
+aS'E None A None D 10 G 7 B 9 E 8 '
+p1437
+aa(lp1438
+S'A Major Flat Five'
+p1439
+aS'E None A None D 11 G 8 B 10 E 9 '
+p1440
+aa(lp1441
+S'A# Major Flat Five'
+p1442
+aS'E None A None D 0 G 9 B 11 E 10 '
+p1443
+aa(lp1444
+S'Bb Major Flat Five'
+p1445
+aS'E None A None D 12 G 9 B 11 E 10 '
+p1446
+aa(lp1447
+S'B Major Flat Five'
+p1448
+aS'E None A None D 13 G 10 B 12 E 11 '
+p1449
+aa(lp1450
+S'C Major Flat Five'
+p1451
+aS'E None A None D 14 G 11 B 13 E 12 '
+p1452
+aa(lp1453
+S'C# Major Flat Five'
+p1454
+aS'E None A None D 15 G 12 B 14 E 13 '
+p1455
+aa(lp1456
+S'Db Major Flat Five'
+p1457
+aS'E None A None D 15 G 12 B 14 E 13 '
+p1458
+aa(lp1459
+S'D Major Flat Five'
+p1460
+aS'E None A None D 4 G 1 B 3 E 2 '
+p1461
+aa(lp1462
+S'D# Major Flat Five'
+p1463
+aS'E None A None D 5 G 2 B 4 E 3 '
+p1464
+aa(lp1465
+S'Eb Major Flat Five'
+p1466
+aS'E None A None D 5 G 2 B 4 E 3 '
+p1467
+aa(lp1468
+S'E Major Flat Five'
+p1469
+aS'E None A None D 6 G 3 B 5 E 4 '
+p1470
+aa(lp1471
+S'F Major Flat Five'
+p1472
+aS'E None A None D 7 G 4 B 6 E 5 '
+p1473
+aa(lp1474
+S'F# Major Flat Five'
+p1475
+aS'E None A None D 8 G 5 B 7 E 6 '
+p1476
+aa(lp1477
+S'Gb Major Flat Five'
+p1478
+aS'E None A None D 8 G 5 B 7 E 6 '
+p1479
+aa(lp1480
+S'G Major Flat Five'
+p1481
+aS'E None A None D 9 G 6 B 8 E 7 '
+p1482
+aa(lp1483
+S'G# Major Flat Five'
+p1484
+aS'E None A None D 10 G 7 B 9 E 8 '
+p1485
+aa(lp1486
+S'Ab Major Flat Five'
+p1487
+aS'E None A None D 6 G 7 B 9 E 8 '
+p1488
+aa(lp1489
+S'A Major Flat Five'
+p1490
+aS'E None A None D 7 G 8 B 10 E 9 '
+p1491
+aa(lp1492
+S'A# Major Flat Five'
+p1493
+aS'E None A None D 8 G 9 B 11 E 10 '
+p1494
+aa(lp1495
+S'Bb Major Flat Five'
+p1496
+aS'E None A None D 8 G 9 B 11 E 10 '
+p1497
+aa(lp1498
+S'B Major Flat Five'
+p1499
+aS'E None A None D 9 G 10 B 12 E 11 '
+p1500
+aa(lp1501
+S'C Major Flat Five'
+p1502
+aS'E None A None D 10 G 11 B 13 E 12 '
+p1503
+aa(lp1504
+S'C# Major Flat Five'
+p1505
+aS'E None A None D 11 G 12 B 14 E 13 '
+p1506
+aa(lp1507
+S'Db Major Flat Five'
+p1508
+aS'E None A None D 11 G 12 B 14 E 13 '
+p1509
+aa(lp1510
+S'D Major Flat Five'
+p1511
+aS'E None A None D 12 G 13 B 15 E 14 '
+p1512
+aa(lp1513
+S'D# Major Flat Five'
+p1514
+aS'E None A None D 1 G 2 B 4 E 3 '
+p1515
+aa(lp1516
+S'Eb Major Flat Five'
+p1517
+aS'E None A None D 1 G 2 B 4 E 3 '
+p1518
+aa(lp1519
+S'E Major Flat Five'
+p1520
+aS'E None A None D 2 G 3 B 5 E 4 '
+p1521
+aa(lp1522
+S'F Major Flat Five'
+p1523
+aS'E None A None D 3 G 4 B 6 E 5 '
+p1524
+aa(lp1525
+S'F# Major Flat Five'
+p1526
+aS'E None A None D 4 G 5 B 7 E 6 '
+p1527
+aa(lp1528
+S'Gb Major Flat Five'
+p1529
+aS'E None A None D 4 G 5 B 7 E 6 '
+p1530
+aa(lp1531
+S'G Major Flat Five'
+p1532
+aS'E None A None D 5 G 6 B 8 E 7 '
+p1533
+aa(lp1534
+S'G# Major Flat Five'
+p1535
+aS'E None A None D 6 G 7 B 9 E 8 '
+p1536
+aa.

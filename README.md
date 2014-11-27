@@ -28,3 +28,4 @@ This project is licensed under the [Apache License, Version 2.0](http://www.apac
      * limitations under the License.
      */
 
+The chord database used here (packaged with [Gnome Guitar](http://gnome-chord.sourceforge.net/)) is distributed under the GPL 2.0 license.

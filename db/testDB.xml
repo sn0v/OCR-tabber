@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chords version="1.0">
+<chord name="A Major">
+<type>major</type>
+<root>A</root>
+<key>A</key>
+<key>D</key>
+<key>E</key>
+<shape>Open</shape>
+<construction>1,3,5</construction>
+<written>Amaj</written>
+<written>A</written>
+<voiceing>
+	<tuning>E,A,D,G,B,E</tuning>
+	<priority>1</priority>
+	<info>The first chord I learnt</info>
+	<guitarString>
+		<tuned>E</tuned>
+		<fretted></fretted>
+		<fretNo></fretNo>
+		<relation></relation>
+		<finger></finger>
+	</guitarString>
+	<guitarString>
+		<tuned>A</tuned>
+		<fretted>A</fretted>
+		<fretNo>0</fretNo>
+		<relation>1</relation>
+		<finger>0</finger>
+	</guitarString>
+	<guitarString>
+		<tuned>D</tuned>
+		<fretted>E</fretted>
+		<fretNo>2</fretNo>
+		<relation>5</relation>
+		<finger>1</finger>
+	</guitarString>
+	<guitarString>
+		<tuned>G</tuned>
+		<fretted>A</fretted>
+		<fretNo>2</fretNo>
+		<relation>1</relation>
+		<finger>2</finger>
+	</guitarString>
+	<guitarString>
+		<tuned>B</tuned>
+		<fretted>C#</fretted>
+		<fretNo>2</fretNo>
+		<relation>3</relation>
+		<finger>3</finger>
+	</guitarString>
+	<guitarString>
+		<tuned>E</tuned>
+		<fretted>E</fretted>
+		<fretNo>0</fretNo>
+		<relation>5</relation>
+		<finger>0</finger>
+	</guitarString>
+</voiceing>
+</chord>
+<chord name="C Major">
+<type>major</type>
+<root>C</root>
+<key>C</key>
+<key>F</key>
+<key>G</key>
+<shape>Open</shape>
+<construction>1,3,5</construction>
+<written>Cmaj</written>
+<written>C</written>
+<voiceing>
+	<tuning>E,A,D,G,B,E</tuning>
+	<priority>1</priority>
+	<info>The second chord I learnt</info>
+	<guitarString>
+		<tuned>E</tuned>
+		<fretted></fretted>
+		<fretNo></fretNo>
+		<relation></relation>
+		<finger></finger>
+	</guitarString>
+	<guitarString>
+		<tuned>A</tuned>
+		<fretted>C</fretted>
+		<fretNo>3</fretNo>
+		<relation>1</relation>
+		<finger>3</finger>
+	</guitarString>
+	<guitarString>
+		<tuned>D</tuned>
+		<fretted>E</fretted>
+		<fretNo>2</fretNo>
+		<relation>3</relation>
+		<finger>2</finger>
+	</guitarString>
+	<guitarString>
+		<tuned>G</tuned>
+		<fretted>G</fretted>
+		<fretNo>0</fretNo>
+		<relation>5</relation>
+		<finger>0</finger>
+	</guitarString>
+	<guitarString>
+		<tuned>B</tuned>
+		<fretted>C</fretted>
+		<fretNo>1</fretNo>
+		<relation>1</relation>
+		<finger>1</finger>
+	</guitarString>
+	<guitarString>
+		<tuned>E</tuned>
+		<fretted>E</fretted>
+		<fretNo>0</fretNo>
+		<relation>3</relation>
+		<finger>0</finger>
+	</guitarString>
+</voiceing>
+</chord>
+</chords>

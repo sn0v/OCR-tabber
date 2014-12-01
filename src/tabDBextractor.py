@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 import json
 import pickle
 
-tree = ET.parse('../db/mainDB.xml') # input database (XML format)
+tree = ET.parse('../data/mainDB.xml') # input database (XML format)
 root = tree.getroot()
 
 # A dictionary can't be used here since the database contains multiple fingerings for each chord
@@ -34,5 +34,5 @@ for child in root: # attribute - chord
 #print len(chordList)
 
 # Pickle the chord list to file
-with open('../db/mainDB.pkl', 'wb') as outfile:
+with open('../data/mainDB.pkl', 'wb') as outfile:
 	pickle.dump(chordList, outfile)

@@ -1,4 +1,6 @@
 # Copyright 2014 Utkarsh Jaiswal
+
+# Scans an input image containing a guitar tab and converts it into ASCII
 # Adopted from the Python Tesseract project - https://code.google.com/p/python-tesseract/
 
 import tesseract

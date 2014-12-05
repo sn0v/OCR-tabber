@@ -32,8 +32,8 @@ with open("../data/ASCIItab.txt") as infile:
 			stringCount += 1
 
 allNotes = sorted(allNotes, key=itemgetter(2)) # sort by position of individual notes 
-print allNotes, len(allNotes)
-print key
+#print allNotes, len(allNotes)
+#print key
 
 # Run the set of notes passed to it (for a single chord) against the database
 # to see if it matches any chords
@@ -45,8 +45,18 @@ def chordRecognition(key, chordNotes):
 	while i >= 0:
 		chord += key[chordNotes[i][0] - 1] + ' ' + str(chordNotes[i][1]) + ' '
 		i -= 1
-	print chord
-		
+	#print repr(chord)
+	chordSet = [x[1] for x in chordDB] # select the list of chord notations minus their names from the DB
+	#print chordDB
+	#print chordSet
+	if chord in chordSet: # recognized by database
+		index = chordSet.index(chord)
+		chordName = chordDB[index][0]
+		print "Chord recognized -", chordName
+		# now suggest alternate chord fingerings
+		for i in range(len(chordDB)):
+			if (chordDB[i][0] == chordName):
+				print "Alternate fingering -", chordDB[i][1]
 
 # Check for presence of chords
 # On the sorted list of notes, this is achieved by checking successive tuples to see if notes from different strings
@@ -69,5 +79,5 @@ while (i < len(allNotes) - 1):
 				y = allNotes[i+1]
 	chordRecognition(key, chordNotes) # notes for one chord have been extracted, recognize it
 	i += 1
-	print 'chordNotes ', chordNotes
+	#print 'chordNotes ', chordNotes
 	chordNotes = []

@@ -19,7 +19,7 @@ with open("../data/ASCIItab.txt") as infile:
 			stringCount = 1
 		if (line[0] in allowedKey): # this line contains valid tabs for a string
 			linePos = [] # positions of all notes played on that string
-			key.append(line[0]) # scan first character for string tuning
+			key.append(line[0].upper()) # scan first character for string tuning
 			lineNotes = line.replace('|', ' ').replace('\\', ' ').split('-')
 			count = 0
 			for note in lineNotes:

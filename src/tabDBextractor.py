@@ -24,7 +24,8 @@ for child in root: # attribute - chord
 	chordFrets = ''
 	for gStr in child.findall('./voiceing/guitarString'):
 		# append the string tuning and fret number to the fret data for the current chord
-		chordFrets += str(gStr[0].text) + ' ' + str(gStr[2].text) + ' '
+		if (gStr[2].text):
+			chordFrets += str(gStr[0].text) + ' ' + str(gStr[2].text) + ' '
 
 	chordList.append([chordName, chordFrets])
 

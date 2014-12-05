@@ -4,6 +4,7 @@
 # Checks for and recognizes chords in input ASCII tabs from a pre-existing database.
 
 from operator import itemgetter
+import pickle
 
 key = [] # key of current tab
 allowedKey = ['a','b','c','d','e','f','g','A','B','C','D','E','F','G'] # list of allowed tunings for strings
@@ -36,8 +37,16 @@ print key
 
 # Run the set of notes passed to it (for a single chord) against the database
 # to see if it matches any chords
-def chordRecognition(chordNotes):
-	pass
+def chordRecognition(key, chordNotes):
+	with open("../data/mainDB.pkl", "rb") as infile: # load chord database from file
+		chordDB = pickle.load(infile)
+	chord = ''
+	i = len(chordNotes) - 1
+	while i >= 0:
+		chord += key[chordNotes[i][0] - 1] + ' ' + str(chordNotes[i][1]) + ' '
+		i -= 1
+	print chord
+		
 
 # Check for presence of chords
 # On the sorted list of notes, this is achieved by checking successive tuples to see if notes from different strings
@@ -58,7 +67,7 @@ while (i < len(allNotes) - 1):
 			i += 1
 			if (i < len(allNotes) - 1):
 				y = allNotes[i+1]
-	#chordRecognition(chordNotes) # notes for one chord have been extracted, recognize it
+	chordRecognition(key, chordNotes) # notes for one chord have been extracted, recognize it
 	i += 1
 	print 'chordNotes ', chordNotes
 	chordNotes = []

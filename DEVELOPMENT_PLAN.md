@@ -15,13 +15,13 @@ This document outlines the prioritized fixes, improvements, and features identif
 
 ### 🔴 CRITICAL PRIORITY
 
-| # | Issue | Files Affected | Effort |
-|---|-------|----------------|--------|
-| 1 | **Python 2 → 3 Migration** - All print statements use Python 2 syntax. Code will not run on Python 3. | `ocr-tab.py:29-30`, `chord-recognizer.py:55,59` | Low |
-| 2 | **Create requirements.txt** - No dependency file exists. Environment cannot be reproduced. | New file | Low |
-| 3 | **Replace deprecated `tesseract` module** - Use `pytesseract` instead (original is EOL) | `ocr-tab.py` | Medium |
-| 4 | **Add error handling to all file I/O** - All file operations are unguarded; crashes on missing files | All 3 Python files | Medium |
-| 5 | **Fix hardcoded relative paths** - Scripts only work from specific directories | `chord-recognizer.py:16,41`, `tabDBextractor.py:11,38`, `ocr-tab.py:14` | Low |
+| # | Issue | Files Affected | Effort | Status |
+|---|-------|----------------|--------|--------|
+| 1 | ~~**Python 2 → 3 Migration** - All print statements use Python 2 syntax. Code will not run on Python 3.~~ | `ocr-tab.py:29-30`, `chord-recognizer.py:55,59` | Low | ✅ Completed |
+| 2 | **Create requirements.txt** - No dependency file exists. Environment cannot be reproduced. | New file | Low | Pending |
+| 3 | **Replace deprecated `tesseract` module** - Use `pytesseract` instead (original is EOL) | `ocr-tab.py` | Medium | Pending |
+| 4 | **Add error handling to all file I/O** - All file operations are unguarded; crashes on missing files | All 3 Python files | Medium | Pending |
+| 5 | **Fix hardcoded relative paths** - Scripts only work from specific directories | `chord-recognizer.py:16,41`, `tabDBextractor.py:11,38`, `ocr-tab.py:14` | Low | Pending |
 
 ### 🟠 HIGH PRIORITY
 

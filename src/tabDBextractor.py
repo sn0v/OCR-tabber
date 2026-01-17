@@ -30,9 +30,9 @@ for child in root: # attribute - chord
 	chordList.append([chordName, chordFrets])
 
 #for item in chordList:
-#	print item[0], ',', item[1]
+#	print(item[0], ',', item[1])
 
-#print len(chordList)
+#print(len(chordList))
 
 # Pickle the chord list to file
 with open('../data/mainDB.pkl', 'wb') as outfile:

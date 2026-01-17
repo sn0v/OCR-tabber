@@ -1,0 +1,127 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ocr-tabber"
+version = "2.0.0"
+description = "An app that scans input images containing guitar tabs and converts them to ASCII"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Utkarsh Jaiswal"},
+]
+keywords = ["ocr", "guitar", "tablature", "music", "tesseract"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Sound/Audio",
+]
+
+dependencies = [
+    "pytesseract>=0.3.13",  # Modern Tesseract OCR wrapper (replaces old tesseract module)
+    "Pillow>=11.1.0",       # Image processing library (required by pytesseract)
+]
+
+[project.optional-dependencies]
+dev = [
+    # Testing
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+    "pytest-xdist>=3.6.1",
+
+    # Code quality
+    "ruff>=0.8.5",          # Fast Python linter and formatter (replaces flake8, black, isort)
+    "mypy>=1.14.1",         # Static type checker
+
+    # Pre-commit hooks
+    "pre-commit>=4.0.1",
+]
+
+[project.scripts]
+ocr-tab = "ocr_tabber.ocr_tab:main"
+chord-recognizer = "ocr_tabber.chord_recognizer:main"
+extract-chord-db = "ocr_tabber.tabDBextractor:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ocr_tabber"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+    "/data",
+    "/tests",
+]
+
+# Ruff configuration (replaces black, isort, flake8, pylint)
+[tool.ruff]
+target-version = "py39"
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # pyflakes
+    "I",      # isort
+    "B",      # flake8-bugbear
+    "C4",     # flake8-comprehensions
+    "UP",     # pyupgrade
+    "ARG",    # flake8-unused-arguments
+    "SIM",    # flake8-simplify
+    "PL",     # pylint
+]
+ignore = [
+    "E501",   # line too long (handled by formatter)
+    "PLR0913", # too many arguments
+    "PLR2004", # magic value in comparison
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+# MyPy configuration
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false  # Start lenient, can be strict later
+ignore_missing_imports = true
+
+# Pytest configuration
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+    "--cov=src",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+# Coverage configuration
+[tool.coverage.run]
+source = ["src"]
+omit = ["*/tests/*", "*/test_*.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]

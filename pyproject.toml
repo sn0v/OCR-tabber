@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ocr-tabber"
+version = "0.1.0"
+description = "OCR tool for guitar tablature recognition"
+authors = ["Utkarsh Jaiswal"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ocr_tabber", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.14"
+# Note: pytesseract should replace the deprecated tesseract module (see DEVELOPMENT_PLAN.md item 3)
+# pytesseract = "^0.3.10"
+# pillow = "^10.0.0"  # Required by pytesseract for image handling
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[tool.poetry.scripts]
+ocr-tabber = "ocr_tabber.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

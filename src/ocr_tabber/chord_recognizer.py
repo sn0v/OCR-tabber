@@ -52,11 +52,11 @@ def chordRecognition(key, chordNotes):
 	if chord in chordSet: # recognized by database
 		index = chordSet.index(chord)
 		chordName = chordDB[index][0]
-		print "Chord recognized -", chordName
+		print("Chord recognized -", chordName)
 		# now suggest alternate chord fingerings
 		for i in range(len(chordDB)):
 			if (chordDB[i][0] == chordName):
-				print "Alternate fingering -", chordDB[i][1]
+				print("Alternate fingering -", chordDB[i][1])
 
 # Check for presence of chords
 # On the sorted list of notes, this is achieved by checking successive tuples to see if notes from different strings

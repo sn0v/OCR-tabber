@@ -26,7 +26,7 @@ mBuffer = open(mImgFile, "rb").read()
 
 result = tesseract.ProcessPagesBuffer(mBuffer, len(mBuffer), api)
 
-print "OCRed tab -"
-print result
+print("OCRed tab -")
+print(result)
 
 api.End()

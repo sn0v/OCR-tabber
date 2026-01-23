@@ -1,5 +1,3 @@
-# Copyright 2014 Utkarsh Jaiswal
-
 # Utility script to parse the XML chord database packaged with Gnome Guitar
 # (http://gnome-chord.sourceforge.net/)
 # It extracts relevant info (chord names, fret positions) while leaving out the rest

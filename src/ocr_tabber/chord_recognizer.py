@@ -1,5 +1,3 @@
-# Copyright 2014 Utkarsh Jaiswal
-
 # Uses the output of ocr_tab.py
 # Checks for and recognizes chords in input ASCII tabs from a pre-existing database.
 

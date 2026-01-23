@@ -1,5 +1,3 @@
-# Copyright 2014 Utkarsh Jaiswal
-
 # Scans an input image containing a guitar tab and converts it into ASCII
 # Uses pytesseract for OCR
 

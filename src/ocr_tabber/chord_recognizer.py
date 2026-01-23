@@ -6,7 +6,6 @@ import sys
 from operator import itemgetter
 from pathlib import Path
 
-
 # Get the data directory path relative to this module
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 ASCII_TAB_PATH = DATA_DIR / "ASCIItab.txt"
@@ -37,9 +36,9 @@ def load_chord_database(db_path: Path = CHORD_DB_PATH) -> list:
         with open(db_path, "rb") as infile:
             return pickle.load(infile)
     except pickle.UnpicklingError as e:
-        raise IOError(f"Failed to parse chord database: {db_path}") from e
+        raise OSError(f"Failed to parse chord database: {db_path}") from e
     except Exception as e:
-        raise IOError(f"Failed to read chord database: {db_path}") from e
+        raise OSError(f"Failed to read chord database: {db_path}") from e
 
 
 def parse_tab_file(tab_path: Path = ASCII_TAB_PATH) -> tuple[list, list]:
@@ -84,7 +83,7 @@ def parse_tab_file(tab_path: Path = ASCII_TAB_PATH) -> tuple[list, list]:
                         all_notes.append([string_count, line_notes[i], line_pos[i]])
                     string_count += 1
     except Exception as e:
-        raise IOError(f"Failed to read tab file: {tab_path}") from e
+        raise OSError(f"Failed to read tab file: {tab_path}") from e
 
     all_notes = sorted(all_notes, key=itemgetter(2))
 
@@ -162,13 +161,13 @@ def main():
     """Main entry point when running as a script."""
     try:
         chord_db = load_chord_database()
-    except (FileNotFoundError, IOError) as e:
+    except (OSError, FileNotFoundError) as e:
         print(f"Error loading chord database: {e}", file=sys.stderr)
         sys.exit(1)
 
     try:
         key, all_notes = parse_tab_file()
-    except (FileNotFoundError, IOError, ValueError) as e:
+    except (OSError, FileNotFoundError, ValueError) as e:
         print(f"Error loading tab file: {e}", file=sys.stderr)
         sys.exit(1)
 

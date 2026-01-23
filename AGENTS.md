@@ -25,11 +25,16 @@ data/
 
 ## Common Commands
 ```bash
-poetry install              # Install dependencies
-poetry run pytest tests/ -v # Run tests
-poetry run python -m ocr_tabber.ocr_tab <image>           # OCR an image
-poetry run python -m ocr_tabber.chord_recognizer          # Recognize chords
-poetry run python -m ocr_tabber.tab_db_extractor          # Rebuild chord DB
+poetry install                          # Install dependencies
+poetry run pytest tests/ -v             # Run tests
+poetry run ruff check src/ tests/       # Run linter
+
+# CLI usage
+poetry run ocr-tabber --help            # Show help
+poetry run ocr-tabber ocr <image>       # OCR an image
+poetry run ocr-tabber recognize         # Recognize chords from default tab
+poetry run ocr-tabber recognize -t FILE # Recognize chords from custom tab
+poetry run ocr-tabber build-db          # Rebuild chord database
 ```
 
 ## Development Notes

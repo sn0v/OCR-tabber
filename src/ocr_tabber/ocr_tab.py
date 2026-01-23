@@ -7,7 +7,6 @@ from pathlib import Path
 import pytesseract
 from PIL import Image
 
-
 # Get the data directory path relative to this module
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 TESSDATA_DIR = DATA_DIR / "tessdata"
@@ -64,7 +63,7 @@ def ocr_tab_image(image_path: str) -> str:
     try:
         image = Image.open(img_path)
     except Exception as e:
-        raise IOError(f"Failed to open image file: {image_path}") from e
+        raise OSError(f"Failed to open image file: {image_path}") from e
 
     # Configure tesseract for guitar tab recognition
     # Character whitelist restricts characters to ones found in guitar tabs
@@ -80,7 +79,7 @@ def ocr_tab_image(image_path: str) -> str:
         raise RuntimeError(
             "Tesseract is not installed or not in PATH. "
             "Please install Tesseract OCR: https://github.com/tesseract-ocr/tesseract"
-        )
+        ) from None
     except Exception as e:
         raise RuntimeError(f"OCR processing failed: {e}") from e
 
@@ -102,7 +101,7 @@ def main():
     except (FileNotFoundError, ValueError) as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
-    except (IOError, RuntimeError) as e:
+    except (OSError, RuntimeError) as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
 

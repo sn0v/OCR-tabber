@@ -9,7 +9,6 @@ import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-
 # Get the data directory path relative to this module
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 INPUT_DB_PATH = DATA_DIR / "mainDB.xml"
@@ -37,9 +36,9 @@ def parse_xml_database(xml_path: Path = INPUT_DB_PATH) -> list:
         tree = ET.parse(xml_path)
         root = tree.getroot()
     except ET.ParseError as e:
-        raise IOError(f"Failed to parse XML database: {xml_path}") from e
+        raise OSError(f"Failed to parse XML database: {xml_path}") from e
     except Exception as e:
-        raise IOError(f"Failed to read XML database: {xml_path}") from e
+        raise OSError(f"Failed to read XML database: {xml_path}") from e
 
     # Validate root element
     if root.tag != 'chords':
@@ -88,20 +87,20 @@ def save_pickle_database(chord_list: list, output_path: Path = OUTPUT_DB_PATH) -
         with open(output_path, 'wb') as outfile:
             pickle.dump(chord_list, outfile)
     except Exception as e:
-        raise IOError(f"Failed to write pickle database: {output_path}") from e
+        raise OSError(f"Failed to write pickle database: {output_path}") from e
 
 
 def main():
     """Main entry point when running as a script."""
     try:
         chord_list = parse_xml_database()
-    except (FileNotFoundError, IOError, ValueError) as e:
+    except (OSError, FileNotFoundError, ValueError) as e:
         print(f"Error reading XML database: {e}", file=sys.stderr)
         sys.exit(1)
 
     try:
         save_pickle_database(chord_list)
-    except IOError as e:
+    except OSError as e:
         print(f"Error writing pickle database: {e}", file=sys.stderr)
         sys.exit(1)
 

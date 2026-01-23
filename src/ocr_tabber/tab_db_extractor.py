@@ -9,13 +9,17 @@ import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+# Type aliases for chord database
+ChordEntry = list[str]  # [chord_name, fret_notation_string]
+ChordDatabase = list[ChordEntry]
+
 # Get the data directory path relative to this module
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 INPUT_DB_PATH = DATA_DIR / "mainDB.xml"
 OUTPUT_DB_PATH = DATA_DIR / "mainDB.pkl"
 
 
-def parse_xml_database(xml_path: Path = INPUT_DB_PATH) -> list:
+def parse_xml_database(xml_path: Path = INPUT_DB_PATH) -> ChordDatabase:
     """
     Parse the XML chord database and extract chord information.
 
@@ -23,7 +27,7 @@ def parse_xml_database(xml_path: Path = INPUT_DB_PATH) -> list:
         xml_path: Path to the input XML database file.
 
     Returns:
-        List of [chord_name, chord_frets] pairs.
+        ChordDatabase: List of [chord_name, fret_notation_string] pairs.
 
     Raises:
         FileNotFoundError: If the XML file doesn't exist.
@@ -72,12 +76,12 @@ def parse_xml_database(xml_path: Path = INPUT_DB_PATH) -> list:
     return chord_list
 
 
-def save_pickle_database(chord_list: list, output_path: Path = OUTPUT_DB_PATH) -> None:
+def save_pickle_database(chord_list: ChordDatabase, output_path: Path = OUTPUT_DB_PATH) -> None:
     """
     Save the chord list to a pickle file.
 
     Args:
-        chord_list: List of [chord_name, chord_frets] pairs.
+        chord_list: ChordDatabase - List of [chord_name, fret_notation_string] pairs.
         output_path: Path to the output pickle file.
 
     Raises:
@@ -90,7 +94,7 @@ def save_pickle_database(chord_list: list, output_path: Path = OUTPUT_DB_PATH) -
         raise OSError(f"Failed to write pickle database: {output_path}") from e
 
 
-def main():
+def main() -> None:
     """Main entry point when running as a script."""
     try:
         chord_list = parse_xml_database()

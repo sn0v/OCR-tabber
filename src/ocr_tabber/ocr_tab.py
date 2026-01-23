@@ -86,7 +86,7 @@ def ocr_tab_image(image_path: str) -> str:
     return result
 
 
-def main():
+def main() -> None:
     """Main entry point when running as a script."""
     if len(sys.argv) < 2:
         print("Usage: python ocr_tab.py <image_file>", file=sys.stderr)

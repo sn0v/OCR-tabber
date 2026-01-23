@@ -43,20 +43,34 @@ def parse_xml_database(xml_path: Path = INPUT_DB_PATH) -> list:
     except Exception as e:
         raise IOError(f"Failed to read XML database: {xml_path}") from e
 
+    # Validate root element
+    if root.tag != 'chords':
+        raise ValueError(
+            f"Invalid XML structure: expected root element 'chords', got '{root.tag}'"
+        )
+
     # A list is used here since the database contains multiple fingerings for each chord
     chord_list = []
 
     for child in root:
+        if 'name' not in child.attrib:
+            raise ValueError("Invalid XML structure: chord element missing 'name' attribute")
+
         chord_name = child.attrib['name']
 
         # Build chord fret notation as a string with whitespaces
         # Eg - The C major chord will be denoted as 'E None A 3 D 2 G 0 B 1 E 0'
         chord_frets = ''
         for g_str in child.findall('./voiceing/guitarString'):
+            if len(g_str) < 3:
+                continue  # Skip malformed guitarString elements
             if g_str[2].text:
                 chord_frets += str(g_str[0].text) + ' ' + str(g_str[2].text) + ' '
 
         chord_list.append([chord_name, chord_frets])
+
+    if not chord_list:
+        raise ValueError(f"No chord entries found in XML database: {xml_path}")
 
     return chord_list
 
@@ -83,7 +97,7 @@ def main():
     """Main entry point when running as a script."""
     try:
         chord_list = parse_xml_database()
-    except (FileNotFoundError, IOError) as e:
+    except (FileNotFoundError, IOError, ValueError) as e:
         print(f"Error reading XML database: {e}", file=sys.stderr)
         sys.exit(1)
 

@@ -14,6 +14,37 @@ from PIL import Image
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 TESSDATA_DIR = DATA_DIR / "tessdata"
 
+# Supported image file extensions
+SUPPORTED_IMAGE_EXTENSIONS = {'.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.tif', '.webp'}
+
+
+def validate_image_path(image_path: str) -> Path:
+    """
+    Validate that the image path exists and has a supported extension.
+
+    Args:
+        image_path: Path to the image file.
+
+    Returns:
+        Path object for the validated image path.
+
+    Raises:
+        FileNotFoundError: If the image file doesn't exist.
+        ValueError: If the file extension is not supported.
+    """
+    img_path = Path(image_path)
+
+    if not img_path.exists():
+        raise FileNotFoundError(f"Image file not found: {image_path}")
+
+    if img_path.suffix.lower() not in SUPPORTED_IMAGE_EXTENSIONS:
+        raise ValueError(
+            f"Unsupported image format: {img_path.suffix}. "
+            f"Supported formats: {', '.join(sorted(SUPPORTED_IMAGE_EXTENSIONS))}"
+        )
+
+    return img_path
+
 
 def ocr_tab_image(image_path: str) -> str:
     """
@@ -27,11 +58,10 @@ def ocr_tab_image(image_path: str) -> str:
 
     Raises:
         FileNotFoundError: If the image file doesn't exist.
+        ValueError: If the file extension is not supported.
         IOError: If the image cannot be read.
     """
-    img_path = Path(image_path)
-    if not img_path.exists():
-        raise FileNotFoundError(f"Image file not found: {image_path}")
+    img_path = validate_image_path(image_path)
 
     try:
         image = Image.open(img_path)
@@ -71,7 +101,7 @@ def main():
         result = ocr_tab_image(image_file)
         print("OCRed tab -")
         print(result)
-    except FileNotFoundError as e:
+    except (FileNotFoundError, ValueError) as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
     except (IOError, RuntimeError) as e:

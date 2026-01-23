@@ -89,6 +89,16 @@ def parse_tab_file(tab_path: Path = ASCII_TAB_PATH) -> tuple[list, list]:
         raise IOError(f"Failed to read tab file: {tab_path}") from e
 
     all_notes = sorted(all_notes, key=itemgetter(2))
+
+    if not key:
+        raise ValueError(f"No valid tab lines found in file: {tab_path}")
+
+    if len(key) > 6:
+        raise ValueError(
+            f"Tab file contains more than 6 strings ({len(key)} found). "
+            "Only standard 6-string guitar tabs are supported."
+        )
+
     return key, all_notes
 
 
@@ -160,7 +170,7 @@ def main():
 
     try:
         key, all_notes = parse_tab_file()
-    except (FileNotFoundError, IOError) as e:
+    except (FileNotFoundError, IOError, ValueError) as e:
         print(f"Error loading tab file: {e}", file=sys.stderr)
         sys.exit(1)
 

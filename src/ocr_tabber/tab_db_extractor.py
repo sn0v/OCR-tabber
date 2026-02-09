@@ -4,7 +4,7 @@
 # Fret positions are always extracted from thickest to thinnest string
 # (EADGBE for standard E tuning)
 
-import pickle
+import json
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -16,7 +16,7 @@ ChordDatabase = list[ChordEntry]
 # Get the data directory path relative to this module
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 INPUT_DB_PATH = DATA_DIR / "mainDB.xml"
-OUTPUT_DB_PATH = DATA_DIR / "mainDB.pkl"
+OUTPUT_DB_PATH = DATA_DIR / "mainDB.json"
 
 
 def parse_xml_database(xml_path: Path = INPUT_DB_PATH) -> ChordDatabase:
@@ -76,22 +76,22 @@ def parse_xml_database(xml_path: Path = INPUT_DB_PATH) -> ChordDatabase:
     return chord_list
 
 
-def save_pickle_database(chord_list: ChordDatabase, output_path: Path = OUTPUT_DB_PATH) -> None:
+def save_json_database(chord_list: ChordDatabase, output_path: Path = OUTPUT_DB_PATH) -> None:
     """
-    Save the chord list to a pickle file.
+    Save the chord list to a JSON file.
 
     Args:
         chord_list: ChordDatabase - List of [chord_name, fret_notation_string] pairs.
-        output_path: Path to the output pickle file.
+        output_path: Path to the output JSON file.
 
     Raises:
-        IOError: If the pickle file cannot be written.
+        IOError: If the JSON file cannot be written.
     """
     try:
-        with open(output_path, 'wb') as outfile:
-            pickle.dump(chord_list, outfile)
+        with open(output_path, 'w') as outfile:
+            json.dump(chord_list, outfile, indent=2)
     except Exception as e:
-        raise OSError(f"Failed to write pickle database: {output_path}") from e
+        raise OSError(f"Failed to write JSON database: {output_path}") from e
 
 
 def main() -> None:
@@ -103,9 +103,9 @@ def main() -> None:
         sys.exit(1)
 
     try:
-        save_pickle_database(chord_list)
+        save_json_database(chord_list)
     except OSError as e:
-        print(f"Error writing pickle database: {e}", file=sys.stderr)
+        print(f"Error writing JSON database: {e}", file=sys.stderr)
         sys.exit(1)
 
     print(f"Successfully extracted {len(chord_list)} chords to {OUTPUT_DB_PATH}")

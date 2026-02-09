@@ -16,7 +16,7 @@ class TestLoadChordDatabase:
 
     def test_load_main_database(self, data_dir: Path):
         """Test loading the main chord database."""
-        result = load_chord_database(data_dir / "mainDB.pkl")
+        result = load_chord_database(data_dir / "mainDB.json")
         assert isinstance(result, list)
         assert len(result) > 0
         # Each entry should be [chord_name, chord_frets]
@@ -25,14 +25,14 @@ class TestLoadChordDatabase:
     def test_load_nonexistent_file(self, temp_dir: Path):
         """Test that FileNotFoundError is raised for missing files."""
         with pytest.raises(FileNotFoundError, match="Chord database not found"):
-            load_chord_database(temp_dir / "nonexistent.pkl")
+            load_chord_database(temp_dir / "nonexistent.json")
 
-    def test_load_invalid_pickle(self, temp_dir: Path):
-        """Test that IOError is raised for invalid pickle files."""
-        invalid_pkl = temp_dir / "invalid.pkl"
-        invalid_pkl.write_text("not a pickle file")
+    def test_load_invalid_json(self, temp_dir: Path):
+        """Test that IOError is raised for invalid JSON files."""
+        invalid_json = temp_dir / "invalid.json"
+        invalid_json.write_text("not a json file {{{")
         with pytest.raises(IOError, match="Failed to"):
-            load_chord_database(invalid_pkl)
+            load_chord_database(invalid_json)
 
 
 class TestParseTabFile:

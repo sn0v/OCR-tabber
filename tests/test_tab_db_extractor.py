@@ -1,11 +1,11 @@
 """Tests for the tab_db_extractor module."""
 
-import pickle
+import json
 from pathlib import Path
 
 import pytest
 
-from ocr_tabber.tab_db_extractor import parse_xml_database, save_pickle_database
+from ocr_tabber.tab_db_extractor import parse_xml_database, save_json_database
 
 
 class TestParseXmlDatabase:
@@ -64,25 +64,25 @@ class TestParseXmlDatabase:
             parse_xml_database(empty_db)
 
 
-class TestSavePickleDatabase:
-    """Tests for save_pickle_database function."""
+class TestSaveJsonDatabase:
+    """Tests for save_json_database function."""
 
     def test_save_and_load(self, temp_dir: Path):
-        """Test saving and loading a pickle database."""
+        """Test saving and loading a JSON database."""
         chord_list = [["A Major", "A 0 D 2 G 2 B 2 E 0 "], ["C Major", "A 3 D 2 G 0 B 1 E 0 "]]
-        output_path = temp_dir / "test.pkl"
+        output_path = temp_dir / "test.json"
 
-        save_pickle_database(chord_list, output_path)
+        save_json_database(chord_list, output_path)
 
         assert output_path.exists()
-        with open(output_path, "rb") as f:
-            loaded = pickle.load(f)
+        with open(output_path) as f:
+            loaded = json.load(f)
         assert loaded == chord_list
 
     def test_save_to_invalid_path(self, temp_dir: Path):
         """Test that IOError is raised when writing to invalid path."""
         chord_list = [["A Major", "A 0 "]]
-        invalid_path = temp_dir / "nonexistent_dir" / "test.pkl"
+        invalid_path = temp_dir / "nonexistent_dir" / "test.json"
 
-        with pytest.raises(IOError, match="Failed to write pickle database"):
-            save_pickle_database(chord_list, invalid_path)
+        with pytest.raises(IOError, match="Failed to write JSON database"):
+            save_json_database(chord_list, invalid_path)

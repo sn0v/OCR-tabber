@@ -1,7 +1,7 @@
 # Uses the output of ocr_tab.py
 # Checks for and recognizes chords in input ASCII tabs from a pre-existing database.
 
-import pickle
+import json
 import sys
 from operator import itemgetter
 from pathlib import Path
@@ -11,11 +11,12 @@ ChordEntry = list[str]  # [chord_name, fret_notation_string]
 ChordDatabase = list[ChordEntry]
 NotePosition = list[int]  # [string_num, fret_num, position]
 StringTuning = list[str]  # List of uppercase note letters (e.g., ['E', 'A', 'D', 'G', 'B', 'E'])
+ChordResult = dict[str, str | list[str]]  # {"chord_name": str, "fingerings": list[str]}
 
 # Get the data directory path relative to this module
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 ASCII_TAB_PATH = DATA_DIR / "ASCIItab.txt"
-CHORD_DB_PATH = DATA_DIR / "mainDB.pkl"
+CHORD_DB_PATH = DATA_DIR / "mainDB.json"
 
 # List of allowed tunings for strings
 ALLOWED_KEY: list[str] = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'A', 'B', 'C', 'D', 'E', 'F', 'G']
@@ -23,25 +24,25 @@ ALLOWED_KEY: list[str] = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'A', 'B', 'C', 'D',
 
 def load_chord_database(db_path: Path = CHORD_DB_PATH) -> ChordDatabase:
     """
-    Load the chord database from a pickle file.
+    Load the chord database from a JSON file.
 
     Args:
-        db_path: Path to the chord database pickle file.
+        db_path: Path to the chord database JSON file.
 
     Returns:
         ChordDatabase: List of [chord_name, fret_notation_string] pairs.
 
     Raises:
         FileNotFoundError: If the database file doesn't exist.
-        IOError: If the database cannot be read or unpickled.
+        IOError: If the database cannot be read or parsed.
     """
     if not db_path.exists():
         raise FileNotFoundError(f"Chord database not found: {db_path}")
 
     try:
-        with open(db_path, "rb") as infile:
-            return pickle.load(infile)
-    except pickle.UnpicklingError as e:
+        with open(db_path) as infile:
+            return json.load(infile)
+    except json.JSONDecodeError as e:
         raise OSError(f"Failed to parse chord database: {db_path}") from e
     except Exception as e:
         raise OSError(f"Failed to read chord database: {db_path}") from e
@@ -105,14 +106,19 @@ def parse_tab_file(tab_path: Path = ASCII_TAB_PATH) -> tuple[StringTuning, list[
     return key, all_notes
 
 
-def chord_recognition(key: StringTuning, chord_notes: list[NotePosition], chord_db: ChordDatabase) -> None:
+def chord_recognition(
+    key: StringTuning, chord_notes: list[NotePosition], chord_db: ChordDatabase,
+) -> ChordResult | None:
     """
     Run the set of notes for a single chord against the database to find matches.
 
     Args:
         key: StringTuning - List of string tunings (uppercase letters).
         chord_notes: List of NotePosition triplets for the chord.
-        chord_db: ChordDatabase loaded from pickle file.
+        chord_db: ChordDatabase loaded from the chord database.
+
+    Returns:
+        A ChordResult dict with chord_name and fingerings, or None if no match.
     """
     chord = ''
     i = len(chord_notes) - 1
@@ -124,13 +130,15 @@ def chord_recognition(key: StringTuning, chord_notes: list[NotePosition], chord_
     if chord in chord_set:
         index = chord_set.index(chord)
         chord_name = chord_db[index][0]
-        print("Chord recognized -", chord_name)
-        for i in range(len(chord_db)):
-            if chord_db[i][0] == chord_name:
-                print("Alternate fingering -", chord_db[i][1])
+        fingerings = [chord_db[i][1] for i in range(len(chord_db)) if chord_db[i][0] == chord_name]
+        return {"chord_name": chord_name, "fingerings": fingerings}
+
+    return None
 
 
-def find_and_recognize_chords(key: StringTuning, all_notes: list[NotePosition], chord_db: ChordDatabase) -> None:
+def find_and_recognize_chords(
+    key: StringTuning, all_notes: list[NotePosition], chord_db: ChordDatabase,
+) -> list[ChordResult]:
     """
     Find chords in the note list and recognize them using the database.
 
@@ -140,8 +148,12 @@ def find_and_recognize_chords(key: StringTuning, all_notes: list[NotePosition], 
     Args:
         key: StringTuning - List of string tunings (uppercase letters).
         all_notes: Sorted list of NotePosition triplets.
-        chord_db: ChordDatabase loaded from pickle file.
+        chord_db: ChordDatabase loaded from the chord database.
+
+    Returns:
+        List of ChordResult dicts for each recognized chord.
     """
+    results: list[ChordResult] = []
     chord_notes = []
     i = 0
     while i < len(all_notes) - 1:
@@ -158,9 +170,13 @@ def find_and_recognize_chords(key: StringTuning, all_notes: list[NotePosition], 
                 i += 1
                 if i < len(all_notes) - 1:
                     y = all_notes[i + 1]
-        chord_recognition(key, chord_notes, chord_db)
+        result = chord_recognition(key, chord_notes, chord_db)
+        if result is not None:
+            results.append(result)
         i += 1
         chord_notes = []
+
+    return results
 
 
 def main() -> None:
@@ -177,7 +193,11 @@ def main() -> None:
         print(f"Error loading tab file: {e}", file=sys.stderr)
         sys.exit(1)
 
-    find_and_recognize_chords(key, all_notes, chord_db)
+    results = find_and_recognize_chords(key, all_notes, chord_db)
+    for result in results:
+        print("Chord recognized -", result["chord_name"])
+        for fingering in result["fingerings"]:
+            print("Alternate fingering -", fingering)
 
 
 if __name__ == "__main__":
